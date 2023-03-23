@@ -3,7 +3,7 @@ import { Container, Card } from "react-bootstrap";
 import { Home } from "./pages/Home";
 import { Experience } from "./pages/Experience";
 import { About } from "./pages/About";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavbarR";
 import { LanguageContext } from "./context/LanguageContext";
 import { useState } from "react";
 
@@ -35,7 +35,9 @@ function App() {
             style={{ objectFit: "cover" }}
           />
         </Container>
-        <small>By Rebecca Yourstone 2023</small>
+        <small className="d-flex justify-content-center">
+          By Rebecca Yourstone 2023
+        </small>
       </LanguageContext.Provider>
     </>
   );

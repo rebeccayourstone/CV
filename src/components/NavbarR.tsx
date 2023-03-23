@@ -1,9 +1,10 @@
 import { useContext } from "react";
-import { Container, Nav, Navbar as NavbarBs, Button } from "react-bootstrap";
+import { Container, Nav, Button } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
+import Navbar from "react-bootstrap/Navbar";
 
-function Navbar() {
+function NavbarR() {
   const currentLang = useContext(LanguageContext);
 
   return (
@@ -22,8 +23,12 @@ function Navbar() {
       >
         EN
       </button>
-      <NavbarBs sticky="top" className="shadow-sm mb-3 bg-">
+      <Navbar sticky="top" className="shadow-sm mb-3 bg-white">
         <Container className="d-flex bg-white">
+          <Navbar.Brand href="#home">Rebecca Yourstone CV</Navbar.Brand>
+
+          {/* <Navbar.Toggle /> */}
+
           <Nav className="me-auto">
             <Nav.Link to="/" as={NavLink}>
               Hem
@@ -34,7 +39,9 @@ function Navbar() {
             <Nav.Link to="/about" as={NavLink}>
               Om Mig
             </Nav.Link>
-            <div className="d-flex align-items-center ">
+          </Nav>
+          <Navbar.Collapse className="justify-content-end">
+            <Navbar.Text className="m-2">
               <a
                 href="https://github.com/rebeccayourstone/CV.git"
                 target="_blank"
@@ -42,21 +49,26 @@ function Navbar() {
                 <i className="bi bi-github"></i>
                 Se min källkod!
               </a>
-              <a
-                href="mailto:annarebeccasvensson@gmail.com"
-                className="text-dark text-decoration-none"
-              >
+            </Navbar.Text>
+            <Navbar.Text className="m-2">
+              <a href="mailto:annarebeccasvensson@gmail.com">
                 <i className="bi bi-envelope"> </i>
                 AnnaRebeccaSvensson@gmail.com
               </a>
-              <i className="bi bi-phone"></i>0706-12 99 85
+            </Navbar.Text>
+            <Navbar.Text className="m-2">
+              <a href="tel:0706129985">
+                <i className="bi bi-phone"></i>0706-12 99 85
+              </a>
+            </Navbar.Text>
+            <Navbar.Text className="m-2">
               <i className="bi bi-printer">Skriv ut CV</i>
-            </div>
-          </Nav>
+            </Navbar.Text>
+          </Navbar.Collapse>
         </Container>
-      </NavbarBs>
+      </Navbar>
     </>
   );
 }
 
-export default Navbar;
+export default NavbarR;
