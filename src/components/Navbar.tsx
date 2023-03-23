@@ -36,6 +36,13 @@ function Navbar() {
             </Nav.Link>
             <div className="d-flex align-items-center ">
               <a
+                href="https://github.com/rebeccayourstone/CV.git"
+                target="_blank"
+              >
+                <i className="bi bi-github"></i>
+                Se min källkod!
+              </a>
+              <a
                 href="mailto:annarebeccasvensson@gmail.com"
                 className="text-dark text-decoration-none"
               >
