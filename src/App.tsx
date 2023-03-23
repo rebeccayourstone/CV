@@ -27,13 +27,12 @@ function App() {
               <Route path="/about" element={<About />} />
             </Routes>
           </Container>
-          <Card.Img
-            variant="top"
+          <img
             src="/src/assets/IMG_4648.jpg"
             alt="profile picture"
             className="w-50 h-auto aspect-ratio-3x4 rounded"
             style={{ objectFit: "cover" }}
-          />
+          ></img>
         </Container>
         <small className="d-flex justify-content-center">
           By Rebecca Yourstone 2023
