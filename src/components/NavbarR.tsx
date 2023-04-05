@@ -1,8 +1,9 @@
 import { useContext } from "react";
-import { Container, Nav, Button } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
 import Navbar from "react-bootstrap/Navbar";
+import translate from "../languages/lang";
 
 function NavbarR() {
   const currentLang = useContext(LanguageContext);
@@ -31,13 +32,13 @@ function NavbarR() {
 
           <Nav className="me-auto">
             <Nav.Link to="/" as={NavLink}>
-              Hem
+              {translate("home", currentLang.lang)}
             </Nav.Link>
             <Nav.Link to="/experiance" as={NavLink}>
-              Erfarenhet
+              {translate("experience", currentLang.lang)}
             </Nav.Link>
             <Nav.Link to="/about" as={NavLink}>
-              Om Mig
+              {translate("aboutMe", currentLang.lang)}
             </Nav.Link>
           </Nav>
           <Navbar.Collapse className="justify-content-end">
@@ -47,7 +48,7 @@ function NavbarR() {
                 target="_blank"
               >
                 <i className="bi bi-github"></i>
-                Se min källkod!
+                {translate("readCode", currentLang.lang)}
               </a>
             </Navbar.Text>
             <Navbar.Text className="m-2">
