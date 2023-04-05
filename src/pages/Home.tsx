@@ -2,7 +2,6 @@ import { Row, Col, Container } from "react-bootstrap";
 import translate from "../languages/lang";
 import { LanguageContext } from "../context/LanguageContext";
 import { useContext } from "react";
-import sv from "../languages/sv";
 
 export function Home() {
   const currentLang = useContext(LanguageContext);
@@ -27,7 +26,7 @@ export function Home() {
             {currentLang.lang === "en" ? (
               <>
                 {translate("searching", currentLang.lang)}
-                <b> 231120 - 240212</b>
+                <b> 231120 - 240212!</b>
               </>
             ) : (
               <>
@@ -35,12 +34,19 @@ export function Home() {
                 {translate("searching", currentLang.lang)}
               </>
             )}
-            .
           </span>
           <p>{translate("preferdWork", currentLang.lang)}</p>
-          <p className="card-text">
+          <p>
             {translate("builtWith", currentLang.lang)}
+            <a
+              href="https://github.com/rebeccayourstone/CV.git"
+              target="_blank"
+              className="text-black"
+            >
+              Github Repository.
+            </a>
           </p>
+          <p> {translate("skillLevel", currentLang.lang)}</p>
         </Col>
       </Container>
     </>

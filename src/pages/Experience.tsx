@@ -1,9 +1,8 @@
-import { Row, Col, Container, Card } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 export function Experience() {
   return (
     <>
-      <h1>Erfarenhet</h1>
       <Container>
         <Col>
           <Row className="fs-2">Utbildning</Row>
@@ -50,10 +49,10 @@ export function Experience() {
         </Col>
 
         <p className="mt-2">
-          I mitt arbete inom Socialt Arbete har jag mött många olika männniskor
-          med olika förutsättningar och behov. Mitt jobb har i breda drag varit
-          att försöka hitta ett bra samarbete med barn, anhöriga, yrkesverksamma
-          och vuxna med stödbehov även i svåra situationer.
+          I mitt tidigare yrkesliv inom Socialt Arbete har jag mött många olika
+          männniskor med olika förutsättningar och behov. Mitt jobb har i breda
+          drag varit att försöka hitta ett bra samarbete med barn, anhöriga,
+          yrkesverksamma och vuxna med stödbehov även i svåra situationer.
         </p>
         <p className="mt-2">
           Några egenskaper och färdigheter som varit viktiga för mig och hjälpt
