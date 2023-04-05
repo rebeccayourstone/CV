@@ -61,9 +61,10 @@ function NavbarR() {
                 <i className="bi bi-phone"></i>0706-12 99 85
               </a>
             </Navbar.Text>
-            <Navbar.Text className="m-2">
+
+            {/* Feature comming soon™<Navbar.Text className="m-2">
               <i className="bi bi-printer">Skriv ut CV</i>
-            </Navbar.Text>
+            </Navbar.Text> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

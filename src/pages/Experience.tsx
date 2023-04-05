@@ -48,6 +48,19 @@ export function Experience() {
             och unga vuxna
           </Row>
         </Col>
+
+        <p className="mt-2">
+          I mitt arbete inom Socialt Arbete har jag mött många olika männniskor
+          med olika förutsättningar och behov. Mitt jobb har i breda drag varit
+          att försöka hitta ett bra samarbete med barn, anhöriga, yrkesverksamma
+          och vuxna med stödbehov även i svåra situationer.
+        </p>
+        <p className="mt-2">
+          Några egenskaper och färdigheter som varit viktiga för mig och hjälpt
+          mig i detta arbete har varit tålamod, förmåga att lyssna in behov,
+          kunna kommunisera tydligt och hitta lösningar som fungerar för
+          samtliga parter.
+        </p>
       </Container>
     </>
   );
