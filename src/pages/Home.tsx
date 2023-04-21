@@ -1,4 +1,4 @@
-import { Row, Col, Container } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 import translate from "../languages/lang";
 import { LanguageContext } from "../context/LanguageContext";
 import { useContext } from "react";
@@ -35,7 +35,7 @@ export function Home() {
               </>
             )}
           </span>
-          <p>{translate("preferdWork", currentLang.lang)}</p>
+          <p>{translate("preferrdWork", currentLang.lang)}</p>
           <p>
             {translate("builtWith", currentLang.lang)}
             <a

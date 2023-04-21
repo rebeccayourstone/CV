@@ -1,65 +1,59 @@
 import { Row, Col, Container } from "react-bootstrap";
+import translate from "../languages/lang";
+import { LanguageContext } from "../context/LanguageContext";
+import { useContext } from "react";
 
 export function Experience() {
+  const currentLang = useContext(LanguageContext);
   return (
     <>
       <Container>
         <Col>
-          <Row className="fs-2">Utbildning</Row>
+          <Row className="fs-2">{translate("education", currentLang.lang)}</Row>
           <Row className="ms-2 text-muted">
-            2023: UX och UI, EC-utbildning (Pågående)
+            {translate("agileProjectMethosd", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2023: JavaScript 3, React, EC-utbildning (35 yrkeshögskolepoäng)
+            {translate("UXAndUI", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2023: JavaScript 2, Angular, EC-utbildning (35 yrkeshögskolepoäng)
+            {translate("javaScript3", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2022: JavaScript 1, EC-utbildning (40 yrkeshögskolepoäng)
+            {translate("javaScript2", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2022: HTML och CSS, EC-utbildning (35 yrkeshögskolepoäng)
+            {translate("javaScript1", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2015: Interaktionsdesign I, Malmö Högskola (7,5 högskolepoäng)
+            {translate("HTMLAndCSS", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2013: Webbutveckling: Grundkurs, Malmö Högskola (7,5 högskolepoäng)
+            {translate("interactionDesign", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2011 - 2016: Kandidatexamen i Socialt Arbete, Lunds Universitet (180
-            högskolepoäng)
+            {translate("webDevelopment", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2008 - 2011: Gymnasieutbildning: Estetisk musik, Spyken, Lund
+            {translate("bachelor", currentLang.lang)}
+          </Row>
+          <Row className="ms-2 text-muted">
+            {translate("gymnasiet", currentLang.lang)}
           </Row>
         </Col>
 
         <Col>
-          <Row className="fs-2">Yrkesliv</Row>
+          <Row className="fs-2">{translate("workLife", currentLang.lang)}</Row>
           <Row className="ms-2 text-muted">
-            2018 - 2022: Föreståndare för Daglig Verksamhet för vuxna med
-            särskilda behov
+            {translate("DV", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
-            2016 - 2018: Utredande och uppföljande Socialsekreterare för barn
-            och unga vuxna
+            {translate("socialWorker", currentLang.lang)}
           </Row>
         </Col>
 
-        <p className="mt-2">
-          I mitt tidigare yrkesliv inom Socialt Arbete har jag mött många olika
-          männniskor med olika förutsättningar och behov. Mitt jobb har i breda
-          drag varit att försöka hitta ett bra samarbete med barn, anhöriga,
-          yrkesverksamma och vuxna med stödbehov även i svåra situationer.
-        </p>
-        <p className="mt-2">
-          Några egenskaper och färdigheter som varit viktiga för mig och hjälpt
-          mig i detta arbete har varit tålamod, förmåga att lyssna in behov,
-          kunna kommunisera tydligt och hitta lösningar som fungerar för
-          samtliga parter.
-        </p>
+        <p className="mt-2">{translate("workDescription", currentLang.lang)}</p>
+        <p className="mt-2">{translate("qualities", currentLang.lang)}</p>
       </Container>
     </>
   );
