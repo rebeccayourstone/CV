@@ -7,13 +7,13 @@ export default {
 
   //HOME
   hello: "Hi",
-  myName: "My name is Rebecca Yourstone and i study Front End Development at ",
+  myName: "My name is Rebecca Yourstone and I study Front End Development at ",
   school: "EC in Helsingborg, Sweden.",
   searching: "I'm looking for an internship",
-  preferrdWork:
-    "I prefer to build using TypeScript and React, i am however open to use other frameworks or libraries such as Angular or vanilla JavaScript.",
+  preferredWork:
+    "I prefer to build using TypeScript and React, I am however open to use other frameworks or libraries such as Angular or vanilla JavaScript.",
   builtWith:
-    "This site is built by me using TypeScript and React and the styling is implemented using Bootstrap and CSS. To the upper left there are two buttons that let you choose if you want to read in Swedish (my main language) or in English. All the source code for this page is available in my ",
+    "This site is built by me using TypeScript and React and the styling is implemented using Bootstrap and CSS. To the upper left there are two buttons that let you choose if you want to read in Swedish (my native tounge) or in English. All the source code for this page is available in my ",
   skillLevel:
     "As I'm still in my early days of frontend development and just taking my first steps into design, the page may appear somewhat bare in its current state.",
 
@@ -21,11 +21,11 @@ export default {
   funThatYouFound:
     "I'm so happy that you found my CV and wanted to know a little about me!",
   shortPresentation:
-    "My name is Rebecca and I used to work as a Social Worker. For afew years I have had an interest in web development and I have recently taken the first steps towards my new profession and am now studying to become a front end developer!",
+    "My name is Rebecca and I used to work as a Social Worker. For a few years I have had an interest in web development and I have recently taken the first steps towards my new profession and am now studying to become a front end developer!",
 
   hobbyOne: "Music",
   hobbyOneDescription:
-    "I have a music interest that i have had through my whole life and follow the saying 'rather than good'",
+    "I have a music interest that I have had throughout my whole life",
 
   hobbyTwo: "My dog",
   hobbyTwoDescription:
@@ -33,7 +33,7 @@ export default {
 
   hobbyThree: "Diving",
   hobbyThreeDescription:
-    "In 2015 i got my diving license and since I have really enjoyed this new dimension to our world.",
+    "In 2015 i got my scuba diving license and since I have really enjoyed this new dimension to our world.",
 
   //EXPERIENCE
   education: "Education",
@@ -58,7 +58,7 @@ export default {
     "2013: Web Development: Malmö Högskola (7,5 högskole credits)",
 
   bachelor:
-    "2011 - 2016: Batchelor of Social Sience, Lunds Universitet (180 högskole credits)",
+    "2011 - 2016: Bachelor of Social Sience, Lunds Universitet (180 högskole credits)",
 
   gymnasiet: "2008 - 2011: Gymnasieutbildning: Estetisk music, Spyken, Lund",
 
