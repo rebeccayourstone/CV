@@ -36,7 +36,7 @@ function App() {
             ></img>
           </Container>
         </Container>
-        <footer className="footer bg-light py-3 mt-auto sticky-bottom">
+        <footer className="footer bg-light py-3 position-fixed bottom-0 w-100">
           {/* "bg-light text-center mt-auto  "> */}
           <Container className="text-center">
             By Rebecca Yourstone 2023
