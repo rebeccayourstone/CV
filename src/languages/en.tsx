@@ -25,7 +25,7 @@ export default {
 
   hobbyOne: "Music",
   hobbyOneDescription:
-    "I have a music interest that i have had through my whole life and follow the saying 'rather than good'",
+    "I have a music interest that i have had through my whole life.",
 
   hobbyTwo: "My dog",
   hobbyTwoDescription:
