@@ -27,7 +27,7 @@ function App() {
               <Route path="/about" element={<About />} />
             </Routes>
           </Container>
-          <Container className="mt-4">
+          <Container className="mt-4 d-none d-md-inline">
             <img
               src="/src/assets/IMG_4648.jpg"
               alt="profile picture"
@@ -36,9 +36,12 @@ function App() {
             ></img>
           </Container>
         </Container>
-        <small className="d-flex justify-content-center mt-4">
-          By Rebecca Yourstone 2023
-        </small>
+        <footer className="footer bg-light py-3 mt-auto sticky-bottom">
+          {/* "bg-light text-center mt-auto  "> */}
+          <Container className="text-center">
+            By Rebecca Yourstone 2023
+          </Container>
+        </footer>
       </LanguageContext.Provider>
     </>
   );
