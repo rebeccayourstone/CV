@@ -10,14 +10,16 @@ export function Home() {
     <>
       <Container>
         <Col className="d-flex flex-column justify-content-between align-items-baseline mb-4">
-          <span className="fs-2">{translate("hello", currentLang.lang)}!</span>
-          <span className="ms-2 text-muted mt-2">
+          <span className="fs-2 text-primary">
+            {translate("hello", currentLang.lang)}!
+          </span>
+          <span className="ms-2 text-primary mt-2">
             {translate("myName", currentLang.lang)}
 
             <a
               href="https://ecutbildning.se/utbildningar/frontendutvecklare/"
               target="_blank"
-              className="text-muted"
+              className="text-primary"
             >
               {translate("school", currentLang.lang)}
             </a>

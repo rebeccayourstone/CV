@@ -1,0 +1,29 @@
+// change the theme
+// $theme-colors: (
+//   "primary": red,
+//   "danger": black,
+// );
+
+// Import Bootstrap and its default variables
+// @import "~bootstrap/scss/bootstrap.scss";
+$primary: #0b4f6c; // new primary color
+$secondary: #dbbadd; // new secondary color
+$success: #a74128; // new success color
+$danger: #ffb800;
+$warning: #ff5e5b;
+$info: #3066be;
+$light: #bbdfc5;
+$dark: #0a2e36;
+
+$white: #f3f3f3;
+
+// Primary - bg-primary and text-primary
+// Secondary - bg-secondary and text-secondary
+// Success - bg-success and text-success
+// Danger - bg-danger and text-danger
+// Warning - bg-warning and text-warning
+// Info - bg-info and text-info
+// Light - bg-light and text-light
+// Dark - bg-dark and text-dark
+
+@import "node_modules/bootstrap/scss/bootstrap";

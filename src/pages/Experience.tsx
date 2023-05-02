@@ -9,7 +9,9 @@ export function Experience() {
     <>
       <Container>
         <Col>
-          <Row className="fs-2">{translate("education", currentLang.lang)}</Row>
+          <Row className="fs-2 text-primary">
+            {translate("education", currentLang.lang)}
+          </Row>
           <Row className="ms-2 text-muted">
             {translate("agileProjectMethosd", currentLang.lang)}
           </Row>
@@ -43,7 +45,9 @@ export function Experience() {
         </Col>
 
         <Col>
-          <Row className="fs-2">{translate("workLife", currentLang.lang)}</Row>
+          <Row className="fs-2 text-primary">
+            {translate("workLife", currentLang.lang)}
+          </Row>
           <Row className="ms-2 text-muted">
             {translate("DV", currentLang.lang)}
           </Row>

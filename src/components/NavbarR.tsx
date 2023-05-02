@@ -24,49 +24,52 @@ function NavbarR() {
       >
         EN
       </button>
-      <Navbar sticky="top" className="shadow-sm mb-3 bg-white">
-        <Container className="d-flex bg-white">
-          <Navbar.Brand href="#home">
-            <span className="d-none d-md-inline">Rebecca Yourstone CV</span>
+      <Navbar sticky="top" className="shadow-sm mb-3 bg-primary ">
+        <Container className="d-flex bg-primary">
+          <Navbar.Brand href="/">
+            <span className="d-none d-md-inline text-white">
+              Rebecca Yourstone CV
+            </span>
           </Navbar.Brand>
 
-          {/* <Navbar.Toggle /> */}
-
           <Nav className="me-auto">
-            <Nav.Link to="/" as={NavLink}>
+            <Nav.Link to="/" as={NavLink} className="text-white">
               {translate("home", currentLang.lang)}
             </Nav.Link>
-            <Nav.Link to="/experiance" as={NavLink}>
+            <Nav.Link to="/experiance" as={NavLink} className="text-white">
               {translate("experience", currentLang.lang)}
             </Nav.Link>
-            <Nav.Link to="/about" as={NavLink}>
+            <Nav.Link to="/about" as={NavLink} className="text-white">
               {translate("aboutMe", currentLang.lang)}
             </Nav.Link>
           </Nav>
+
           <Navbar.Collapse className="justify-content-end">
-            <Navbar.Text className="m-2">
+            <Navbar.Text className="m-2 text-white">
               <a
                 href="https://github.com/rebeccayourstone/CV.git"
                 target="_blank"
               >
-                <i className="bi bi-github"></i>
-                <span className="d-none d-xl-inline">
+                <i className="bi bi-github text-white"></i>
+                <span className="d-none d-xl-inline text-white">
                   {translate("readCode", currentLang.lang)}
                 </span>
               </a>
             </Navbar.Text>
-            <Navbar.Text className="m-2">
+            <Navbar.Text className="m-2 text-white">
               <a href="mailto:annarebeccasvensson@gmail.com">
-                <i className="bi bi-envelope"></i>
-                <span className="d-none d-xl-inline">
+                <i className="bi bi-envelope text-white"></i>
+                <span className="d-none d-xl-inline text-white">
                   AnnaRebeccaSvensson@gmail.com
                 </span>
               </a>
             </Navbar.Text>
-            <Navbar.Text className="m-2">
+            <Navbar.Text className="m-2 text-white">
               <a href="tel:0706129985">
-                <i className="bi bi-phone"></i>
-                <span className="d-none d-xl-inline">0706-12 99 85</span>
+                <i className="bi bi-phone text-white"></i>
+                <span className="d-none d-xl-inline text-white">
+                  0706-12 99 85
+                </span>
               </a>
             </Navbar.Text>
           </Navbar.Collapse>
