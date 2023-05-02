@@ -50,16 +50,15 @@ function NavbarR() {
                 target="_blank"
               >
                 <i className="bi bi-github"></i>
-                <span className="d-none d-md-inline">
+                <span className="d-none d-xl-inline">
                   {translate("readCode", currentLang.lang)}
                 </span>
               </a>
             </Navbar.Text>
-
             <Navbar.Text className="m-2">
               <a href="mailto:annarebeccasvensson@gmail.com">
                 <i className="bi bi-envelope"></i>
-                <span className="d-none d-md-inline">
+                <span className="d-none d-xl-inline">
                   AnnaRebeccaSvensson@gmail.com
                 </span>
               </a>
@@ -67,7 +66,7 @@ function NavbarR() {
             <Navbar.Text className="m-2">
               <a href="tel:0706129985">
                 <i className="bi bi-phone"></i>
-                <span className="d-none d-md-inline">0706-12 99 85</span>
+                <span className="d-none d-xl-inline">0706-12 99 85</span>
               </a>
             </Navbar.Text>
           </Navbar.Collapse>
