@@ -6,8 +6,8 @@ import { About } from "./pages/About";
 import Navbar from "./components/NavbarR";
 import { LanguageContext } from "./context/LanguageContext";
 import { useState } from "react";
-import { Carousel } from "react-bootstrap";
-import ClockApp from "./projects/DigitalClock/ClockApp";
+
+import ProjectCarousel from "./components/ProjectCarousel";
 
 function App() {
   const [lang, setLang] = useState<string>("en");
@@ -38,54 +38,7 @@ function App() {
             ></img>
           </Container>
         </Container>
-        <Container>
-          <Carousel>
-            <Carousel.Item>
-              {/* <img
-                className="d-block w-100"
-                src="/src/assets/Digiclock.png"
-                alt="Digital Clock slide"
-              /> */}
-              <div>
-                <ClockApp />
-              </div>
-              <div>
-                <Carousel.Caption>
-                  <h3 className="text-primary">Digital Clock</h3>
-                  <p className="text-primary">
-                    A digital clock fetching data from an api. Built in react.
-                  </p>
-                </Carousel.Caption>
-              </div>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src=" /src/assets/WhackAMole.png"
-                alt="Second slide"
-              />
-
-              <Carousel.Caption>
-                <h3 className="text-primary">Whack a Mole</h3>
-                <p>Basic Whack a Mole game built in Angular.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="/src/assets/MineSweeper.png"
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <h3 className="text-primary">MineSweeper</h3>
-                <p>Mine Sweeper game built with partly done code base.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
-        </Container>
+        <ProjectCarousel />
         <footer className="footer bg-primary py-3 position-fixed bottom-0 w-100 text-white">
           <Container className="text-center">
             By Rebecca Yourstone 2023
