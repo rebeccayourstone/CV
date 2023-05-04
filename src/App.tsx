@@ -49,15 +49,15 @@ function App() {
               <div>
                 <ClockApp />
               </div>
+              <div>
+                <Carousel.Caption>
+                  <h3 className="text-primary">Digital Clock</h3>
+                  <p className="text-primary">
+                    A digital clock fetching data from an api. Built in react.
+                  </p>
+                </Carousel.Caption>
+              </div>
             </Carousel.Item>
-            <div>
-              <Carousel.Caption>
-                <h3 className="text-primary">Digital Clock</h3>
-                <p className="text-primary">
-                  A digital clock fetching data from an api. Built in react.
-                </p>
-              </Carousel.Caption>
-            </div>
 
             <Carousel.Item>
               <img
