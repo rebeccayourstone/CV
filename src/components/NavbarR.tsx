@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Container, Nav, Col, Row } from "react-bootstrap";
+import { Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
 import Navbar from "react-bootstrap/Navbar";
