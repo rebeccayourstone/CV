@@ -1,5 +1,6 @@
 import { Container, Carousel } from "react-bootstrap";
 import ClockApp from "../projects/DigitalClock/ClockApp";
+import Calculator from "../projects/Calculator/Calculator";
 
 function ProjectCarousel() {
   return (
@@ -43,6 +44,13 @@ function ProjectCarousel() {
             <Carousel.Caption>
               <h3 className="text-primary">MineSweeper</h3>
               <p>Mine Sweeper game built with partly done code base.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <Calculator />
+            <Carousel.Caption>
+              <h3 className="text-primary">Calculator</h3>
+              <p>A calculator inspired by appel.</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
