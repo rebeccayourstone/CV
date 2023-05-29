@@ -15,7 +15,7 @@
 .mine-fake-body > div::after {
   position: absolute;
   z-index: -1;
-  background-image: url(/src/assets/logo512.png);
+  background-image: url(/assets/logo512.png);
   background-repeat: no-repeat;
   opacity: 0.2;
   content: "";

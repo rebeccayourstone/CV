@@ -24,7 +24,7 @@ function ProjectCarousel() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src=" /src/assets/WhackAMole.png"
+              src=" /assets/WhackAMole.png"
               alt="Second slide"
             />
 

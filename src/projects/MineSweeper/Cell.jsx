@@ -73,7 +73,7 @@ function Cell(props) {
         {/* renders the mine based on if the state valueImage is true or not */}
         {valueImage && (
           <div className="mine">
-            <img src="/src/assets/logo192.png" alt="mine"></img>
+            <img src="/assets/logo192.png" alt="mine"></img>
           </div>
         )}
         {/* displayes the cells value that it got from numberOfNeighbouringMines */}
