@@ -169,7 +169,7 @@ class Board extends React.Component {
               />
             ))}
           </div>
-          <small>By Rebecca Yourstone FEU22</small>
+          {/* <small>By Rebecca Yourstone FEU22</small> */}
         </div>
       </div>
     );

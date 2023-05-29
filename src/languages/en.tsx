@@ -47,6 +47,7 @@ export default {
 
   javaScript2:
     "2023: JavaScript 2, Angular, EC-utbildning (35 yrkeshögskole credits)",
+
   javaScript1: "2022: JavaScript 1, EC-utbildning (40 yrkeshögskole credits)",
 
   HTMLAndCSS: "2022: HTML and CSS, EC-utbildning (35 yrkeshögskole credits)",

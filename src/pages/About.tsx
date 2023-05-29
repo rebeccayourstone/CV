@@ -23,7 +23,7 @@ export function About() {
           <Row className="fs-4 mt-3 text-primary">Hobbies</Row>
           <Row className="d-flex flex-column flex-md-row">
             <Col>
-              <i className="bi bi-music-note-beamed"></i>{" "}
+              <i className="bi bi-music-note-beamed"></i>
               {translate("hobbyOne", currentLang.lang)}
               <p>{translate("hobbyOneDescription", currentLang.lang)}</p>
             </Col>

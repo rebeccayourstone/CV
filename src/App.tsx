@@ -29,13 +29,25 @@ function App() {
               <Route path="/about" element={<About />} />
             </Routes>
           </Container>
-          <Container className="mt-4 d-none d-md-inline d-flex justify-content-end">
-            <img
-              src="/src/assets/IMG_4648.jpg"
-              alt="profile picture"
-              className="w-50 h-auto aspect-ratio-3x4 rounded"
-              style={{ objectFit: "cover" }}
-            ></img>
+          {/* <Container className="d-flex">
+            <Container className="mt-4 d-none d-md-inline d-flex justify-content-end">
+              <img
+                src="/src/assets/IMG_4648.jpg"
+                alt="profile picture"
+                className="w-50 h-auto aspect-ratio-3x4 rounded"
+                style={{ objectFit: "cover" }}
+              ></img>
+            </Container>
+          </Container> */}
+          <Container className="d-flex">
+            <Container className="mt-4 d-none d-md-inline-flex justify-content-end pb-3">
+              <img
+                src="/src/assets/IMG_4648.jpg"
+                alt="profile picture"
+                className="rounded"
+                style={{ objectFit: "scale-down" }}
+              ></img>
+            </Container>
           </Container>
         </Container>
         <ProjectCarousel />

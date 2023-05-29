@@ -2,6 +2,7 @@ import { Container, Carousel } from "react-bootstrap";
 import ClockApp from "../projects/DigitalClock/ClockApp";
 import Calculator from "../projects/Calculator/Calculator";
 import Board from "../projects/MineSweeper/Board";
+import TryMeOut from "./TryMeOut";
 
 function ProjectCarousel() {
   return (
@@ -37,16 +38,18 @@ function ProjectCarousel() {
           <Carousel.Item>
             <Board />
             <Carousel.Caption>
-              <h3 className="text-primary">MineSweeper</h3>
-              <p>Mine Sweeper game built with partly done code base.</p>
+              <h3>MineSweeper</h3>
+              <p>
+                Mine Sweeper game built with partly done code base. Try it out!
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
 
           <Carousel.Item>
             <Calculator />
             <Carousel.Caption>
-              <h3 className="text-primary">Calculator</h3>
-              <p>A calculator inspired by iOS.</p>
+              <h3>Calculator</h3>
+              <p>A calculator inspired by iOS. Try it out!</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
