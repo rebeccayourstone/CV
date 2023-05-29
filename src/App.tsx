@@ -39,15 +39,16 @@ function App() {
               ></img>
             </Container>
           </Container> */}
-          <Container className="d-flex">
-            <Container className="mt-4 d-none d-md-inline-flex justify-content-end pb-3">
-              <img
-                src="/assets/IMG_4648.jpg"
-                alt="profile picture"
-                className="rounded"
-                style={{ objectFit: "scale-down" }}
-              ></img>
-            </Container>
+          <Container
+            className="d-none d-md-block pb-5"
+            style={{ maxWidth: 400 }}
+          >
+            <img
+              src="/assets/IMG_4648.jpg"
+              alt="profile picture"
+              className="rounded"
+              style={{ objectFit: "scale-down", width: "100%" }}
+            ></img>
           </Container>
         </Container>
         <ProjectCarousel />
