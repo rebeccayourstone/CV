@@ -1,6 +1,7 @@
 import { Container, Carousel } from "react-bootstrap";
 import ClockApp from "../projects/DigitalClock/ClockApp";
 import Calculator from "../projects/Calculator/Calculator";
+import Board from "../projects/MineSweeper/Board";
 
 function ProjectCarousel() {
   return (
@@ -8,9 +9,8 @@ function ProjectCarousel() {
       <Container>
         <Carousel>
           <Carousel.Item>
-            <div>
-              <ClockApp />
-            </div>
+            <ClockApp />
+
             <div>
               <Carousel.Caption>
                 <h3 className="text-primary">Digital Clock</h3>
@@ -35,22 +35,18 @@ function ProjectCarousel() {
           </Carousel.Item>
 
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/src/assets/MineSweeper.png"
-              alt="Third slide"
-            />
-
+            <Board />
             <Carousel.Caption>
               <h3 className="text-primary">MineSweeper</h3>
               <p>Mine Sweeper game built with partly done code base.</p>
             </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
             <Calculator />
             <Carousel.Caption>
               <h3 className="text-primary">Calculator</h3>
-              <p>A calculator inspired by appel.</p>
+              <p>A calculator inspired by iOS.</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+button {
+  height: 50px;
+  width: 50px;
+  font-family: monospace;
+  background-color: rgba(40, 44, 52, 0.197);
+  color: white;
+  border: 1px solid #087ea4;
+  opacity: 0.9;
+}
+
+button:disabled {
+  background-color: #20232a;
+}
+
+.mine {
+  display: flex;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag {
+  font-size: xx-large;
+  color: #c07631;
+}
+
+img {
+  max-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* rgb(97, 218, 251); */

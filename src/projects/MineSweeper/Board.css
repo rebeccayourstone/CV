@@ -1,0 +1,106 @@
+.mine-fake-body {
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  z-index: 0;
+}
+
+.mine-fake-body > div::after {
+  position: absolute;
+  z-index: -1;
+  background-image: url(/src/assets/logo512.png);
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  content: "";
+  inset: 0;
+  background-position: center;
+}
+
+.mine-fake-body > div::before {
+  position: absolute;
+  background-color: rgba(32, 35, 42, 1);
+  z-index: -1;
+  content: "";
+  inset: 0;
+}
+
+.minesLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.boardContainer {
+  background-color: rgba(40, 44, 52, 0.852);
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  max-width: 250px;
+  max-height: 250px;
+  text-align: center;
+}
+
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+  padding-bottom: 390px;
+}
+
+/* .gameContainer::after {
+  z-index: -1;
+  background: url(/public/logo512.png) no-repeat;
+  opacity: 0.05;
+  content: "";
+  inset: 0;
+} */
+
+.gameInfo {
+  max-width: 250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  color: #61dafb;
+  text-shadow: 0 0 20px #7ae2ff, 0 0 20px #61dafb61;
+  font-size: large;
+  font-weight: 600;
+  margin: 15px;
+  font-family: "digitalmono", monospace;
+  justify-content: space-between;
+  display: flex;
+}
+
+.gameInfo > div {
+  align-items: center;
+}
+
+.gameMessage {
+  color: #61dafb;
+  font-size: x-large;
+  white-space: nowrap;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+small {
+  padding-top: 20px;
+  color: #61dafb;
+}
