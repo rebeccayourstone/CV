@@ -29,6 +29,7 @@ function App() {
               <Route path="/about" element={<About />} />
             </Routes>
           </Container>
+
           {/* <Container className="d-flex">
             <Container className="mt-4 d-none d-md-inline d-flex justify-content-end">
               <img
