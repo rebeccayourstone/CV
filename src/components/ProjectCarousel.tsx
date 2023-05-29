@@ -2,7 +2,6 @@ import { Container, Carousel } from "react-bootstrap";
 import ClockApp from "../projects/DigitalClock/ClockApp";
 import Calculator from "../projects/Calculator/Calculator";
 import Board from "../projects/MineSweeper/Board";
-import TryMeOut from "./TryMeOut";
 
 function ProjectCarousel() {
   return (
