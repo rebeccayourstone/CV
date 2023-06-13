@@ -21,7 +21,7 @@ export default {
   funThatYouFound:
     "I'm so happy that you found my CV and wanted to know a little about me!",
   shortPresentation:
-    "My name is Rebecca and I used to work as a Social Worker. For afew years I have had an interest in web development and I have recently taken the first steps towards my new profession and am now studying to become a front end developer!",
+    "My name is Rebecca and I used to work as a Social Worker. For a few years I have had an interest in web development and I have recently taken the first steps towards my new profession and am now studying to become a front end developer!",
 
   hobbyOne: "Music",
   hobbyOneDescription:
