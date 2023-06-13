@@ -2,7 +2,8 @@ import { Row, Col, Container } from "react-bootstrap";
 import { LanguageContext } from "../context/LanguageContext";
 import { useContext } from "react";
 import translate from "../languages/lang";
-
+import { TbScubaMask } from "react-icons/tb";
+import { FaPaw, FaItunesNote } from "react-icons/fa";
 export function About() {
   const currentLang = useContext(LanguageContext);
 
@@ -23,16 +24,16 @@ export function About() {
           <Row className="fs-4 mt-3 text-primary">Hobbies</Row>
           <Row className="d-flex flex-column flex-md-row">
             <Col>
-              <i className="bi bi-music-note-beamed"></i>
+              <FaItunesNote />
               {translate("hobbyOne", currentLang.lang)}
               <p>{translate("hobbyOneDescription", currentLang.lang)}</p>
             </Col>
             <Col>
-              🐾 {translate("hobbyTwo", currentLang.lang)}
+              <FaPaw /> {translate("hobbyTwo", currentLang.lang)}
               <p>{translate("hobbyTwoDescription", currentLang.lang)}</p>
             </Col>
             <Col>
-              🌊 {translate("hobbyThree", currentLang.lang)}
+              <TbScubaMask /> {translate("hobbyThree", currentLang.lang)}
               <p>{translate("hobbyThreeDescription", currentLang.lang)}</p>
             </Col>
           </Row>
