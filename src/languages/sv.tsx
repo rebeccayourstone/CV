@@ -38,7 +38,8 @@ export default {
   //EXPERIENCE
   education: "Utbildning",
 
-  agileProjectMethosd: "2023: Agila Projekt Metoder, EC-utbildning (Pågående)",
+  agileProjectMethosd:
+    "2023: Agila Projekt Metoder, EC-utbildning (20 yrkeshögskolepoäng)",
 
   UXAndUI: "2023: UX och UI, EC-utbildning (35 yrkeshögskolepoäng)",
 
