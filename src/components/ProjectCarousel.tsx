@@ -37,10 +37,12 @@ function ProjectCarousel() {
               alt="Second slide"
             />
             <div className="text-center pb-5">
-              <h3 className="text-primary">Si2nCal2c</h3>
+              <h3 className="text-primary">
+                SI<sub>2</sub>NCAl<sub>2</sub>C
+              </h3>
               <p className="text-primary">
                 A Calculater used by medical professionals to predict poor
-                outcome after CVT.
+                outcome after Cerebral Venous Thrombosis.
               </p>
               <p className="text-primary">
                 Se the full implementation on{" "}
@@ -72,6 +74,42 @@ function ProjectCarousel() {
               <h3>Calculator</h3>
               <p>A calculator inspired by iOS. Try it out!</p>
             </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item
+            style={{
+              backgroundColor: "#21232a",
+            }}
+          >
+            <Board />
+            <div className="text-primary text-center pb-5">
+              <h3>MineSweeper</h3>
+              <p>Mine Sweeper game built with partly done code base.</p>
+              <p>Try it out on desktop!</p>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item style={{ backgroundColor: "#fff" }}>
+            <img
+              className="d-block w-100"
+              src=" /assets/aquaclear.png"
+              alt="Second slide"
+            />
+            <div className="text-center pb-5">
+              <h3 className="text-primary">Aqua Clear</h3>
+              <p className="text-primary">
+                A webshop for Aqua Clear, a company selling water filters.
+              </p>
+              <p className="text-primary">
+                Implementation of existing desig and solution for klarna
+                checkout.
+              </p>
+              <p className="text-primary">
+                Se the full implementation on{" "}
+                <a href="https://www.aquaclear.se/">
+                  <u>aquaclear.se</u>
+                </a>
+              </p>
+            </div>
           </Carousel.Item>
         </Carousel>
       </Container>
