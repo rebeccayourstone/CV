@@ -124,44 +124,59 @@ function Calculator() {
   }
 
   return (
-    <div className="calc-container">
-      <div className="calc-calculator">
-        <section className="calc-history-display">{historyDisplay}</section>
-        <section className="calc-display">{display}</section>
+    <>
+      <div className="">
+        <div className="calc-container">
+          <div className="calc-calculator">
+            <section className="calc-history-display">{historyDisplay}</section>
+            <section className="calc-display">{display}</section>
 
-        <div className="calc-buttons" onClick={handleButtonClick}>
-          <div className="calc-top-row">
-            <button className="calc-button calc-dubble-size calc-symbol">
-              C
-            </button>
-            <button className="calc-button calc-symbol">←</button>
-            <button className="calc-button calc-orange calc-symbol">÷</button>
-          </div>
-          <div className="calc-second-row">
-            <button className="calc-button">7</button>
-            <button className="calc-button">8</button>
-            <button className="calc-button">9</button>
-            <button className="calc-button calc-orange calc-symbol">×</button>
-          </div>
-          <div className="calc-third-row">
-            <button className="calc-button">4</button>
-            <button className="calc-button">5</button>
-            <button className="calc-button">6</button>
-            <button className="calc-button calc-orange calc-symbol">−</button>
-          </div>
-          <div className="calc-fourth-row">
-            <button className="calc-button">1</button>
-            <button className="calc-button">2</button>
-            <button className="calc-button">3</button>
-            <button className="calc-button calc-orange calc-symbol">+</button>
-          </div>
-          <div className="calc-fifth-row">
-            <button className="calc-button calc-tripple-size">0</button>
-            <button className="calc-button calc-orange calc-symbol">=</button>
+            <div className="calc-buttons" onClick={handleButtonClick}>
+              <div className="calc-top-row">
+                <button className="calc-button calc-dubble-size calc-symbol">
+                  C
+                </button>
+                <button className="calc-button calc-symbol">←</button>
+                <button className="calc-button calc-orange calc-symbol">
+                  ÷
+                </button>
+              </div>
+              <div className="calc-second-row">
+                <button className="calc-button">7</button>
+                <button className="calc-button">8</button>
+                <button className="calc-button">9</button>
+                <button className="calc-button calc-orange calc-symbol">
+                  ×
+                </button>
+              </div>
+              <div className="calc-third-row">
+                <button className="calc-button">4</button>
+                <button className="calc-button">5</button>
+                <button className="calc-button">6</button>
+                <button className="calc-button calc-orange calc-symbol">
+                  −
+                </button>
+              </div>
+              <div className="calc-fourth-row">
+                <button className="calc-button">1</button>
+                <button className="calc-button">2</button>
+                <button className="calc-button">3</button>
+                <button className="calc-button calc-orange calc-symbol">
+                  +
+                </button>
+              </div>
+              <div className="calc-fifth-row">
+                <button className="calc-button calc-tripple-size ">0</button>
+
+                <button className="calc-button calc-orange calc-symbol">
+                  =
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

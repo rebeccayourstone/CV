@@ -8,7 +8,12 @@ function ProjectCarousel() {
     <>
       <Container>
         <Carousel>
-          <Carousel.Item>
+          <Carousel.Item
+            className="carousel-style"
+            style={{
+              background: "linear-gradient(to bottom, #333, #fff)",
+            }}
+          >
             <ClockApp />
 
             <div>
@@ -21,30 +26,47 @@ function ProjectCarousel() {
             </div>
           </Carousel.Item>
 
-          <Carousel.Item>
+          <Carousel.Item
+            style={{
+              background: "#fff",
+            }}
+          >
             <img
               className="d-block w-100"
-              src=" /assets/WhackAMole.png"
+              src=" /assets/si2ncal2c.png"
               alt="Second slide"
             />
-
-            <Carousel.Caption>
-              <h3 className="text-primary">Whack a Mole</h3>
-              <p>Basic Whack a Mole game built in Angular.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <Board />
-            <Carousel.Caption>
-              <h3>MineSweeper</h3>
-              <p>
-                Mine Sweeper game built with partly done code base. Try it out!
+            <div className="text-center pb-5">
+              <h3 className="text-primary">Si2nCal2c</h3>
+              <p className="text-primary">
+                A Calculater used by medical professionals to predict poor
+                outcome after CVT.
               </p>
-            </Carousel.Caption>
+              <p className="text-primary">
+                Se the full implementation on{" "}
+                <a href="https://cerebralvenousthrombosis.com/professionals/calculator-si2ncal2c/">
+                  <u>CerebralVenousthrombosis.com</u>
+                </a>
+              </p>
+            </div>
           </Carousel.Item>
 
-          <Carousel.Item>
+          <Carousel.Item
+            style={{
+              backgroundColor: "#21232a",
+            }}
+          >
+            <Board />
+            <div className="text-primary text-center pb-5">
+              <h3>MineSweeper</h3>
+              <p>Mine Sweeper game built with partly done code base.</p>
+              <p>Try it out on desktop!</p>
+            </div>
+          </Carousel.Item>
+
+          <Carousel.Item
+            style={{ height: "800px", backgroundColor: "#131313" }}
+          >
             <Calculator />
             <Carousel.Caption>
               <h3>Calculator</h3>

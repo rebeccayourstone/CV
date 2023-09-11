@@ -29,17 +29,6 @@ function App() {
               <Route path="/about" element={<About />} />
             </Routes>
           </Container>
-
-          {/* <Container className="d-flex">
-            <Container className="mt-4 d-none d-md-inline d-flex justify-content-end">
-              <img
-                src="/assets/IMG_4648.jpg"
-                alt="profile picture"
-                className="w-50 h-auto aspect-ratio-3x4 rounded"
-                style={{ objectFit: "cover" }}
-              ></img>
-            </Container>
-          </Container> */}
           <Container
             className="d-none d-md-block pb-5"
             style={{ maxWidth: 400 }}
@@ -53,7 +42,10 @@ function App() {
           </Container>
         </Container>
         <ProjectCarousel />
-        <footer className="footer bg-primary py-3 position-fixed bottom-0 w-100 text-white">
+        <footer
+          className="footer bg-primary py-3 position-fixed bottom-0 w-100 text-white"
+          style={{ zIndex: 2 }}
+        >
           <Container className="text-center">
             By Rebecca Yourstone 2023
           </Container>
