@@ -19,6 +19,21 @@ $white: #e7e7e7;
 
 $link-decoration: #e0e0e0;
 
+// Global font sizes
+
+$font-size-medium: 1.25rem;
+
+// body {
+//   font-size: $font-size-medium; // Using the medium font size
+// }
+
+span {
+  font-size: $font-size-medium; // Using the small font size for spans}
+}
+
+p {
+  font-size: $font-size-medium; // Using the small font size for paragraphs
+}
 // Primary - bg-primary and text-primary
 // Secondary - bg-secondary and text-secondary
 // Success - bg-success and text-success

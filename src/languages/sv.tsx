@@ -72,7 +72,7 @@ export default {
 
   workLife: "Yrkesliv",
 
-  enskildFirma: "2023 - Pågående: Startade en enskild firma.",
+  enskildFirma: "2023 - Pågående: Enskild Firma.",
 
   project1:
     "SI₂NCAl₂C - En kalkylator som används av sjukvården för att förutsäga prognos efter Cerebral Venous Thrombosis. Implementerade delvis färdig JavaScript, la till egen design, färdigställde och fixade JavaScript. ",
@@ -89,6 +89,12 @@ export default {
 
   socialWorker:
     "2016 - 2018: Utredande och uppföljande Socialsekreterare för barn och unga vuxna, Helsingborg",
+
+  enskildFirmaWork:
+    "I min enskilda firma har jag tagit mig an några mindre projekt. Jag har fokuserat på det som intresserat mig mest, vilket har varit TypeScript och React med vissa delar enbart JavaScript. Jag har haft roligt med att experimentera med olika projektstrukturer och stylingmetoder, testat Sass, CSS, Tailwind och Bootstrap. I några av projekten har jag arbetat i team och därmed blivit bättre på att använda git och github för versionshantering. Mina styrkor ligger i kommunikation och nyfikenhet, både i att förstå kundens vision och i att hitta lösningar på komplexa problem.",
+
+  enskildFirmaBackEnd:
+    "För tillfället har jag fortfarande mycket att lära mig när det kommer till Back End, till de projekt jag jobbat på har jag använt mig av Vercel för att deploya både min egen CV och några av de projekten jag gjort.",
 
   workDescription:
     "I mitt tidigare yrkesliv inom Socialt Arbete har jag mött många olika männniskor med olika förutsättningar och behov. Mitt jobb har i breda drag varit att försöka hitta ett bra samarbete med barn, anhöriga, yrkesverksamma och vuxna med stödbehov även i svåra situationer.",

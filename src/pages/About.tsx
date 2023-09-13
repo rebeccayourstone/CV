@@ -27,16 +27,22 @@ export function About() {
           <Row className="fs-4 mt-3 text-primary">Hobbies</Row>
           <Row className="d-flex flex-column flex-md-row">
             <Col>
-              <FaItunesNote />
-              {translate("hobbyOne", currentLang.lang)}
+              <span>
+                <FaItunesNote />
+                {translate("hobbyOne", currentLang.lang)}
+              </span>
               <p>{translate("hobbyOneDescription", currentLang.lang)}</p>
             </Col>
             <Col>
-              <FaPaw /> {translate("hobbyTwo", currentLang.lang)}
+              <span>
+                <FaPaw /> {translate("hobbyTwo", currentLang.lang)}
+              </span>
               <p>{translate("hobbyTwoDescription", currentLang.lang)}</p>
             </Col>
             <Col>
-              <TbScubaMask /> {translate("hobbyThree", currentLang.lang)}
+              <span>
+                <TbScubaMask /> {translate("hobbyThree", currentLang.lang)}
+              </span>
               <p>{translate("hobbyThreeDescription", currentLang.lang)}</p>
             </Col>
           </Row>

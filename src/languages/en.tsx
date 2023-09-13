@@ -24,7 +24,7 @@ export default {
     "My name is Rebecca and I used to work as a Social Worker. For a few years I have had an interest in web development and I have recently taken the first steps towards my new profession and am now studying to become a front end developer!",
 
   ownCompany:
-    "I've been having so much fun learning programming that I have started my own 'enskild firma' and am taking on small projects. You can find them in the carousel below or on the 'experiance' page.",
+    "I've been having so much fun learning programming that I have started my own 'Enskild Firma' where I am taking on small projects. You can find them in the carousel below or on the 'experiance' page.",
 
   hobbyOne: "Music",
   hobbyOneDescription:
@@ -72,8 +72,7 @@ export default {
 
   workLife: "Professional life",
 
-  enskildFirma:
-    "2023 - Ongoing: Started my own 'enskild firma' taking on small projects.",
+  enskildFirma: "2023 - Ongoing: Enskild Firma.",
 
   project1:
     "SI₂NCAl₂C - A Calculater used by medical professionals to predict poor outcome after Cerebral Venous Thrombosis. Implementing partly done JavaScript, adding own design, finishing and fixing the JavaScript. ",
@@ -90,6 +89,12 @@ export default {
 
   socialWorker:
     "2016 - 2018: Investigating and Follow-up Social Worker for Children and Young Adults, Helsingborg",
+
+  enskildFirmaWork:
+    "In my Enskild Firma I have taken on a few small projects. I've been focusing on what really intrests me, witch has been TypeScript and React with some parts only JavaScript.  I've had fun experimenting with different project structures and styling approaches, playing around with Sass, CSS, Tailwind ans Bootstrap. In some of the projects I've been working in teams and thus gotten better att using git and github for revision control. My strengths lie in communication and curiosity, both in understanding the client's vision and in finding solutions to complex problems.",
+
+  enskildFirmaBackEnd:
+    "At the moment I still have a lot to learn when it comes to Back End programming, but I have been using Vercel to deploy both my own CV and some of the projects I've done.",
 
   workDescription:
     "In my previous professional life in Social Work, I have encountered many different individuals with varying circumstances and needs. Broadly speaking, my job has been to try to establish good collaboration with children, relatives, professionals, and adults in need of support, even in difficult situations.",

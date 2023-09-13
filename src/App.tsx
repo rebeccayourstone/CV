@@ -25,7 +25,7 @@ function App() {
           <Container className="mb-4">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/experiance" element={<Experience />} />
+              <Route path="/experience" element={<Experience />} />
               <Route path="/about" element={<About />} />
             </Routes>
           </Container>

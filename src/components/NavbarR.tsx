@@ -29,7 +29,7 @@ function NavbarR() {
           className="d-flex justify-content-center align-items-centertext-alert font-weight-bold"
           style={{ width: "100%", fontWeight: "bold" }}
         >
-          <p className="mt-3 ">
+          <p className="text-xl mt-3 ">
             Looking for an internship 231120 - 240212 in front end development!
           </p>
         </Container>

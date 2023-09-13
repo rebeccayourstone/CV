@@ -92,7 +92,12 @@ export function Experience() {
             {translate("socialWorker", currentLang.lang)}
           </Row>
         </Col>
-
+        <p className="mt-2">
+          {translate("enskildFirmaWork", currentLang.lang)}
+        </p>
+        <p className="mt-2">
+          {translate("enskildFirmaBackEnd", currentLang.lang)}
+        </p>
         <p className="mt-2">{translate("workDescription", currentLang.lang)}</p>
         <p className="mt-2">{translate("qualities", currentLang.lang)}</p>
       </Container>
