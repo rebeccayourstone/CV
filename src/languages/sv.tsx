@@ -75,13 +75,13 @@ export default {
   enskildFirma: "2023 - Pågående: Enskild Firma.",
 
   project1:
-    "SI₂NCAl₂C - En kalkylator som används av sjukvården för att förutsäga prognos efter Cerebral Venous Thrombosis. Implementerade delvis färdig JavaScript, la till egen design, färdigställde och fixade JavaScript. ",
+    "SI₂NCAl₂C - Byggt i JavaScript och CSS - En kalkylator som används av sjukvården för att förutsäga prognos efter Cerebral Venous Thrombosis. Implementerade delvis färdig JavaScript, la till egen design, färdigställde och fixade JavaScript.",
 
   project2:
-    "AquaClear - En hemsida för Aqua Clear, ett företag som säljer vattenfilter. Implementerade design gjord av en designer, byggde frontend och deployade med Vercel. ",
+    "AquaClear - Byggt i React, TypesCript och Tailwind - En hemsida för Aqua Clear, ett företag som säljer vattenfilter. Implementerade design gjord av en designer, byggde frontend och deployade med Vercel.",
 
   project3:
-    "Asekio - Varit en del av utvecklingsteamet på Asekio. Designat, byggt och underhållit frontend på hemsidan. ",
+    "Asekio - Byggt i Next, React, TypeScript och Scss - Varit en del av utvecklingsteamet på Asekio. Designat, byggt och underhållit frontend på hemsidan. ",
 
   fullImplementation: "Se full implementation på ",
 
@@ -91,7 +91,7 @@ export default {
     "2016 - 2018: Utredande och uppföljande Socialsekreterare för barn och unga vuxna, Helsingborg",
 
   enskildFirmaWork:
-    "I min enskilda firma har jag tagit mig an några mindre projekt. Jag har fokuserat på det som intresserat mig mest, vilket har varit TypeScript och React med vissa delar enbart JavaScript. Jag har haft roligt med att experimentera med olika projektstrukturer och stylingmetoder, testat Sass, CSS, Tailwind och Bootstrap. I några av projekten har jag arbetat i team och därmed blivit bättre på att använda git och github för versionshantering. Mina styrkor ligger i kommunikation och nyfikenhet, både i att förstå kundens vision och i att hitta lösningar på komplexa problem.",
+    "I min enskilda firma har jag tagit mig an några mindre projekt. Jag har fokuserat på det som intresserat mig mest, vilket har varit TypeScript och React med vissa delar enbart JavaScript. Jag har haft roligt med att experimentera med olika projektstrukturer och stylingmetoder, testat Sass, CSS, Tailwind och Bootstrap. I några av projekten har jag arbetat i team och därmed blivit bättre på att använda git och github för versionshantering. Mina styrkor ligger i kommunikation och nyfikenhet, både i att förstå kundens vision och lära mig olika sätt att lösa komplexa problem med kod.",
 
   enskildFirmaBackEnd:
     "För tillfället har jag fortfarande mycket att lära mig när det kommer till Back End, till de projekt jag jobbat på har jag använt mig av Vercel för att deploya både min egen CV och några av de projekten jag gjort.",

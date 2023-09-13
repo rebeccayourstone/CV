@@ -75,13 +75,13 @@ export default {
   enskildFirma: "2023 - Ongoing: Enskild Firma.",
 
   project1:
-    "SI₂NCAl₂C - A Calculater used by medical professionals to predict poor outcome after Cerebral Venous Thrombosis. Implementing partly done JavaScript, adding own design, finishing and fixing the JavaScript. ",
+    "SI₂NCAl₂C - Built in JavaScript and CSS - A Calculater used by medical professionals to predict poor outcome after Cerebral Venous Thrombosis. Implementing partly done JavaScript, adding own design, finishing and fixing the JavaScript. ",
 
   project2:
-    "AquaClear - A website for Aqua Clear, a company selling water filters. Implementing design made by a designer, building the frontend and deploying using Vercel. ",
+    "AquaClear - Built in React, TypeScript and Tailwind - A website for Aqua Clear, a company selling water filters. Implementing design made by a designer, building the frontend and deploying using Vercel. ",
 
   project3:
-    "Asekio - Being part of the developer team at Asekio. Designing, building and maintaining the frontend of the website. ",
+    "Asekio - Built in Next, React, TypesCript and Scss - Being part of the developer team at Asekio. Designing, building and maintaining the frontend of the website. ",
 
   fullImplementation: "See the full implementation on ",
 
@@ -91,7 +91,7 @@ export default {
     "2016 - 2018: Investigating and Follow-up Social Worker for Children and Young Adults, Helsingborg",
 
   enskildFirmaWork:
-    "In my Enskild Firma I have taken on a few small projects. I've been focusing on what really intrests me, witch has been TypeScript and React with some parts only JavaScript.  I've had fun experimenting with different project structures and styling approaches, playing around with Sass, CSS, Tailwind ans Bootstrap. In some of the projects I've been working in teams and thus gotten better att using git and github for revision control. My strengths lie in communication and curiosity, both in understanding the client's vision and in finding solutions to complex problems.",
+    "In my Enskild Firma I have taken on a few small projects. I've been focusing on what really intrests me, witch has been TypeScript and React with some parts only JavaScript.  I've had fun experimenting with different project structures and styling approaches, playing around with Sass, CSS, Tailwind ans Bootstrap. In some of the projects I've been working in teams and thus gotten better att using git and github for revision control. My strengths lie in communication and curiosity, both in understanding the client's vision and learning about different ways to solve complex problems using code.",
 
   enskildFirmaBackEnd:
     "At the moment I still have a lot to learn when it comes to Back End programming, but I have been using Vercel to deploy both my own CV and some of the projects I've done.",

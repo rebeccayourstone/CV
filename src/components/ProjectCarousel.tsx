@@ -8,6 +8,7 @@ function ProjectCarousel() {
     <>
       <Container>
         <Carousel>
+          {/* CLOCK */}
           <Carousel.Item
             className="carousel-style"
             style={{
@@ -15,8 +16,10 @@ function ProjectCarousel() {
             }}
           >
             <ClockApp />
-
-            <div className="text-center pb-5">
+            <div
+              className="text-center pb-5"
+              style={{ backgroundColor: "#c6c5c5" }}
+            >
               <h3 className="text-primary">Digital Clock - School Project</h3>
               <p className="text-primary">
                 A digital clock fetching data from an api. Built in react.
@@ -24,6 +27,7 @@ function ProjectCarousel() {
             </div>
           </Carousel.Item>
 
+          {/* SINCALC */}
           <Carousel.Item
             style={{
               background: "#fff",
@@ -54,6 +58,7 @@ function ProjectCarousel() {
             </div>
           </Carousel.Item>
 
+          {/* MINE SWEEPER */}
           <Carousel.Item
             style={{
               backgroundColor: "#21232a",
@@ -67,6 +72,7 @@ function ProjectCarousel() {
             </div>
           </Carousel.Item>
 
+          {/* CALCULATOR */}
           <Carousel.Item
             style={{ height: "800px", backgroundColor: "#131313" }}
           >
@@ -77,6 +83,7 @@ function ProjectCarousel() {
             </div>
           </Carousel.Item>
 
+          {/* AQUA CLEAR */}
           <Carousel.Item style={{ backgroundColor: "#fff" }}>
             <img
               className="d-block w-100"
@@ -90,7 +97,7 @@ function ProjectCarousel() {
               <p className="text-primary">
                 A website for Aqua Clear, a company selling water filters.
               </p>
-              <p className="text-primary">Implementation of existing desig.</p>
+              <p className="text-primary">Implementation of existing design.</p>
               <p className="text-primary">
                 See the full implementation on{" "}
                 <a href="https://www.aquaclear.se/" target="_blank">
@@ -99,6 +106,8 @@ function ProjectCarousel() {
               </p>
             </div>
           </Carousel.Item>
+
+          {/* ASEKIO */}
           <Carousel.Item style={{ backgroundColor: "#fff" }}>
             <img
               className="d-block w-100"
