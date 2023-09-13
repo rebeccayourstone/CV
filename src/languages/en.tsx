@@ -23,6 +23,9 @@ export default {
   shortPresentation:
     "My name is Rebecca and I used to work as a Social Worker. For a few years I have had an interest in web development and I have recently taken the first steps towards my new profession and am now studying to become a front end developer!",
 
+  ownCompany:
+    "I've been having so much fun learning programming that I have started my own 'enskild firma' and am taking on small projects. You can find them in the carousel below or on the 'experiance' page.",
+
   hobbyOne: "Music",
   hobbyOneDescription:
     "I have a music interest that i have had through my whole life.",
@@ -37,6 +40,9 @@ export default {
 
   //EXPERIENCE
   education: "Education",
+
+  backend1:
+    "2023: Backend 1, C# and Entity Framework Core, EC-utbildning (30 yrkeshögskole credits) ongoing",
 
   agileProjectMethosd:
     "2023: Agile Project Methods, EC-utbildning (20 yrkeshögskole credits)",
@@ -65,6 +71,20 @@ export default {
   gymnasiet: "2008 - 2011: Gymnasieutbildning: Estetisk music, Spyken, Lund",
 
   workLife: "Professional life",
+
+  enskildFirma:
+    "2023 - Ongoing: Started my own 'enskild firma' taking on small projects.",
+
+  project1:
+    "SI₂NCAl₂C - A Calculater used by medical professionals to predict poor outcome after Cerebral Venous Thrombosis. Implementing partly done JavaScript, adding own design, finishing and fixing the JavaScript. ",
+
+  project2:
+    "AquaClear - A website for Aqua Clear, a company selling water filters. Implementing design made by a designer, building the frontend and deploying using Vercel. ",
+
+  project3:
+    "Asekio - Being part of the developer team at Asekio. Designing, building and maintaining the frontend of the website. ",
+
+  fullImplementation: "See the full implementation on ",
 
   DV: "2018 - 2022: Manager at a daily activity center for adults with special needs",
 

@@ -23,6 +23,9 @@ export default {
   shortPresentation:
     "Mitt namn är Rebecca och jag har tidigare arbetat med Socialt Arbete. Jag har under flera år sneglat på IT-branchen och tyckt att det ser spännande ut och nu har jag äntligen tagit tag i min nyfikenhet och helt valt att skola om mig!",
 
+  ownCompany:
+    "Jag har haft så pass roligt när jag lärt mig programmera att jag startat en Enskild Firma där jag tagit mig an diverse små på mig små projekt. Du kan hitta dem i karusellen nedan eller under fliken 'erfarenhet'. ",
+
   hobbyOne: "Musik",
   hobbyOneDescription:
     "Jag har ett musikintresse som följt mig genom hela livet med devisen 'hellre än bra'.",
@@ -37,6 +40,9 @@ export default {
 
   //EXPERIENCE
   education: "Utbildning",
+
+  backend1:
+    "2023: Backend 1, C# och Entity Framework Core, EC-utbildning (30 yrkeshögskolepoäng) pågående",
 
   agileProjectMethosd:
     "2023: Agila Projekt Metoder, EC-utbildning (20 yrkeshögskolepoäng)",
@@ -65,6 +71,19 @@ export default {
   gymnasiet: "2008 - 2011: Gymnasieutbildning: Estetisk musik, Spyken, Lund",
 
   workLife: "Yrkesliv",
+
+  enskildFirma: "2023 - Pågående: Startade en enskild firma.",
+
+  project1:
+    "SI₂NCAl₂C - En kalkylator som används av sjukvården för att förutsäga prognos efter Cerebral Venous Thrombosis. Implementerade delvis färdig JavaScript, la till egen design, färdigställde och fixade JavaScript. ",
+
+  project2:
+    "AquaClear - En hemsida för Aqua Clear, ett företag som säljer vattenfilter. Implementerade design gjord av en designer, byggde frontend och deployade med Vercel. ",
+
+  project3:
+    "Asekio - Varit en del av utvecklingsteamet på Asekio. Designat, byggt och underhållit frontend på hemsidan. ",
+
+  fullImplementation: "Se full implementation på ",
 
   DV: "2018 - 2022: Föreståndare för Daglig Verksamhet för vuxna med särskilda behov, Lund",
 

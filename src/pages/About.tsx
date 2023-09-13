@@ -20,6 +20,9 @@ export function About() {
           <Row>
             <p>{translate("shortPresentation", currentLang.lang)}</p>
           </Row>
+          <Row>
+            <p>{translate("ownCompany", currentLang.lang)}</p>
+          </Row>
 
           <Row className="fs-4 mt-3 text-primary">Hobbies</Row>
           <Row className="d-flex flex-column flex-md-row">

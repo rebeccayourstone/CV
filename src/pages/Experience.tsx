@@ -13,6 +13,9 @@ export function Experience() {
             {translate("education", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
+            {translate("backend1", currentLang.lang)}
+          </Row>
+          <Row className="ms-2 text-muted">
             {translate("agileProjectMethosd", currentLang.lang)}
           </Row>
           <Row className="ms-2 text-muted">
@@ -48,6 +51,40 @@ export function Experience() {
           <Row className="fs-2 text-primary">
             {translate("workLife", currentLang.lang)}
           </Row>
+          <Row className="ms-2 text-muted">
+            {translate("enskildFirma", currentLang.lang)}
+          </Row>
+          <ul>
+            {/* SINCALC */}
+            <li className="ms-2 text-muted">
+              {translate("project1", currentLang.lang)}
+              <div>
+                {translate("fullImplementation", currentLang.lang)}
+                <a
+                  href="https://cerebralvenousthrombosis.com/professionals/calculator-si2ncal2c/"
+                  target="_blank"
+                >
+                  <u>cerebralvenousthrombosis.com</u>
+                </a>
+              </div>
+            </li>
+            {/* AQUACLEAR */}
+            <li className="ms-2 text-muted">
+              {translate("project2", currentLang.lang)}
+              {translate("fullImplementation", currentLang.lang)}
+              <a href="https://www.aquaclear.se/" target="_blank">
+                <u>aquaclear.se</u>
+              </a>
+            </li>
+            {/* ASEKIO */}
+            <li className="ms-2 text-muted">
+              {translate("project3", currentLang.lang)}
+              {translate("fullImplementation", currentLang.lang)}
+              <a className="" href="https://www.asekio.com/" target="_blank">
+                <u>asekio.com</u>
+              </a>
+            </li>
+          </ul>
           <Row className="ms-2 text-muted">
             {translate("DV", currentLang.lang)}
           </Row>
