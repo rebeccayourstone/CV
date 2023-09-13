@@ -91,7 +91,7 @@ function ProjectCarousel() {
           <Carousel.Item style={{ backgroundColor: "#fff" }}>
             <img
               className="d-block w-100"
-              src=" /assets/aquaclear.png"
+              src=" /assets/aquaclear2.png"
               alt="Second slide"
             />
             <div className="text-center pb-5">
@@ -99,10 +99,7 @@ function ProjectCarousel() {
               <p className="text-primary">
                 A webshop for Aqua Clear, a company selling water filters.
               </p>
-              <p className="text-primary">
-                Implementation of existing desig and solution for klarna
-                checkout.
-              </p>
+              <p className="text-primary">Implementation of existing desig.</p>
               <p className="text-primary">
                 Se the full implementation on{" "}
                 <a href="https://www.aquaclear.se/">
