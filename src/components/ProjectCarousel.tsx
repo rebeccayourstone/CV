@@ -16,13 +16,11 @@ function ProjectCarousel() {
           >
             <ClockApp />
 
-            <div>
-              <Carousel.Caption>
-                <h3 className="text-primary">Digital Clock - School Project</h3>
-                <p className="text-primary">
-                  A digital clock fetching data from an api. Built in react.
-                </p>
-              </Carousel.Caption>
+            <div className="text-center pb-5">
+              <h3 className="text-primary">Digital Clock - School Project</h3>
+              <p className="text-primary">
+                A digital clock fetching data from an api. Built in react.
+              </p>
             </div>
           </Carousel.Item>
 
@@ -73,10 +71,10 @@ function ProjectCarousel() {
             style={{ height: "800px", backgroundColor: "#131313" }}
           >
             <Calculator />
-            <Carousel.Caption>
+            <div className="text-primary text-center pb-5">
               <h3>Calculator - Own Hobby Project</h3>
               <p>A calculator inspired by iOS. Try it out!</p>
-            </Carousel.Caption>
+            </div>
           </Carousel.Item>
 
           <Carousel.Item style={{ backgroundColor: "#fff" }}>
