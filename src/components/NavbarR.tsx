@@ -46,7 +46,7 @@ function NavbarR() {
             <Nav.Link to="/" as={NavLink} className="text-white">
               {translate("home", currentLang.lang)}
             </Nav.Link>
-            <Nav.Link to="/experiance" as={NavLink} className="text-white">
+            <Nav.Link to="/experience" as={NavLink} className="text-white">
               {translate("experience", currentLang.lang)}
             </Nav.Link>
             <Nav.Link to="/about" as={NavLink} className="text-white">
