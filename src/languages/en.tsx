@@ -7,13 +7,13 @@ export default {
 
   //HOME
   hello: "Hi",
-  myName: "My name is Rebecca Yourstone and i study Front End Development at ",
+  myName: "My name is Rebecca Yourstone and I study Frontend Development at ",
   school: "EC in Helsingborg, Sweden.",
   searching: "I'm looking for an internship",
   preferrdWork:
-    "I prefer to build using TypeScript and React, i am however open to use other frameworks or libraries such as Angular or vanilla JavaScript.",
+    "I prefer to build using TypeScript and React, I am however open to use other frameworks or libraries such as Angular or vanilla JavaScript.",
   builtWith:
-    "This site is built by me using TypeScript and React and the styling is implemented using Bootstrap and CSS. To the upper left there are two buttons that let you choose if you want to read in Swedish (my main language) or in English. All the source code for this page is available in my ",
+    "This site is built by me using TypeScript and React and the styling is implemented using a combination of Bootstrap and regular CSS. In the top left corner there are two buttons that let you choose if you want to read in Swedish (my native language) or in English. All the source code for this page is available on my ",
   skillLevel:
     "As I'm still in my early days of frontend development and just taking my first steps into design, the page may appear somewhat bare in its current state.",
 
@@ -21,7 +21,7 @@ export default {
   funThatYouFound:
     "I'm so happy that you found my CV and wanted to know a little about me!",
   shortPresentation:
-    "My name is Rebecca and I used to work as a Social Worker. For a few years I have had an interest in web development and I have recently taken the first steps towards my new profession and am now studying to become a front end developer!",
+    "My name is Rebecca and I used to work as a Social Worker. For a few years I have had an interest in web development and I have recently taken the first steps towards my new profession and am now studying to become a frontend developer!",
 
   ownCompany:
     "I've been having so much fun learning programming that I have started my own 'Enskild Firma' where I am taking on small projects. You can find them in the carousel below or on the 'experiance' page.",
@@ -66,7 +66,7 @@ export default {
     "2013: Web Development: Malmö Högskola (7,5 högskole credits)",
 
   bachelor:
-    "2011 - 2016: Batchelor of Social Sience, Lunds Universitet (180 högskole credits)",
+    "2011 - 2016: Bachelor of Social Science, Lunds Universitet (180 högskole credits)",
 
   gymnasiet: "2008 - 2011: Gymnasieutbildning: Estetisk music, Spyken, Lund",
 
@@ -75,10 +75,10 @@ export default {
   enskildFirma: "2023 - Ongoing: Enskild Firma.",
 
   project1:
-    "SI₂NCAl₂C - Built in JavaScript and CSS - A Calculater used by medical professionals to predict poor outcome after Cerebral Venous Thrombosis. Implementing partly done JavaScript, adding own design, finishing and fixing the JavaScript. ",
+    "SI₂NCAl₂C - Built in TypeScript, React and regular CSS - A Calculator used by medical professionals to predict poor outcome after Cerebral Venous Thrombosis. It was based off an existing Javascript algorithm, which I added design, UI, Typescript, React & further modifications of the algorithm based on customer feedback.  ",
 
   project2:
-    "AquaClear - Built in React, TypeScript and Tailwind - A website for Aqua Clear, a company selling water filters. Implementing design made by a designer, building the frontend and deploying using Vercel. ",
+    "AquaClear - Built in Next, React, TypeScript and Tailwind - A website for Aqua Clear, a company selling water filters. Implementing design made by a designer, building the frontend and deploying using Vercel. ",
 
   project3:
     "Asekio - Built in Next, React, TypesCript and Scss - Being part of the developer team at Asekio. Designing, building and maintaining the frontend of the website. ",
@@ -91,10 +91,10 @@ export default {
     "2016 - 2018: Investigating and Follow-up Social Worker for Children and Young Adults, Helsingborg",
 
   enskildFirmaWork:
-    "In my Enskild Firma I have taken on a few small projects. I've been focusing on what really intrests me, witch has been TypeScript and React with some parts only JavaScript.  I've had fun experimenting with different project structures and styling approaches, playing around with Sass, CSS, Tailwind ans Bootstrap. In some of the projects I've been working in teams and thus gotten better att using git and github for revision control. My strengths lie in communication and curiosity, both in understanding the client's vision and learning about different ways to solve complex problems using code.",
+    "In my Enskild Firma I have taken on a few small projects. I've been focusing on what really intrests me, witch has been TypeScript and React with some parts only JavaScript.  I've had fun experimenting with different project structures and styling approaches, playing around with Sass, CSS, Tailwind ans Bootstrap. In some of the projects I've been working in teams and thus gotten better at using git and github for revision control. My strengths lie in communication and curiosity, both in understanding the client's vision and learning about different ways to solve complex problems using code.",
 
   enskildFirmaBackEnd:
-    "At the moment I still have a lot to learn when it comes to Back End programming, but I have been using Vercel to deploy both my own CV and some of the projects I've done.",
+    "At the moment I still have a lot to learn when it comes to backend programming, but I have been using Vercel to deploy both my own CV and some of the projects I've done.",
 
   workDescription:
     "In my previous professional life in Social Work, I have encountered many different individuals with varying circumstances and needs. Broadly speaking, my job has been to try to establish good collaboration with children, relatives, professionals, and adults in need of support, even in difficult situations.",
