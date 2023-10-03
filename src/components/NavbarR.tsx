@@ -30,7 +30,7 @@ function NavbarR() {
           style={{ width: "100%", fontWeight: "bold" }}
         >
           <p className="text-xl mt-3 ">
-            Looking for work in Fronte-end development!
+            Looking for work in Front-end development!
           </p>
         </Container>
       </div>
