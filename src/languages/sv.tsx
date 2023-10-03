@@ -10,7 +10,7 @@ export default {
   myName:
     "Mitt namn är Rebecca Yourstone fd Svensson och jag läser till Frontendutvecklare på ",
   school: "EC i Helsingborg.",
-  searching: "söker jag LIA-plats inom Frontendutveckling!",
+  searching: "Jag söker arbete inom Frontendutveckling!",
   preferdWork:
     "Jag bygger helst i TypeScript och React, men är öppen för andra ramverk/bibliotek så som Angular eller ren JavaScript.",
   builtWith:
@@ -75,10 +75,10 @@ export default {
   enskildFirma: "2023 - Pågående: Enskild Firma.",
 
   project1:
-    "SI₂NCAl₂C - Byggt i JavaScript och CSS - En kalkylator som används av sjukvården för att förutsäga prognos efter Cerebral Venous Thrombosis. Implementerade delvis färdig JavaScript, la till egen design, färdigställde och fixade JavaScript.",
+    "SI₂NCAl₂C - Byggt i TypeScript och CSS - En kalkylator som används av sjukvården för att förutsäga prognos efter Cerebral Venous Thrombosis. Den är baserad på en redan existerande JavaScript-algoritm där jag implementerat egen design, UI, TypeScript, React och vidareutvecklat algoritmen baserat på kundfeedback.",
 
   project2:
-    "AquaClear - Byggt i React, TypesCript och Tailwind - En hemsida för Aqua Clear, ett företag som säljer vattenfilter. Implementerade design gjord av en designer, byggde frontend och deployade med Vercel.",
+    "AquaClear - Byggt i Next, React, TypesCript och Tailwind - En hemsida för Aqua Clear, ett företag som säljer vattenfilter. Implementerade design gjord av en designer, byggde frontend och deployade med Vercel.",
 
   project3:
     "Asekio - Byggt i Next, React, TypeScript och Scss - Varit en del av utvecklingsteamet på Asekio. Designat, byggt och underhållit frontend på hemsidan. ",

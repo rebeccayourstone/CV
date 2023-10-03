@@ -9,7 +9,7 @@ export default {
   hello: "Hi",
   myName: "My name is Rebecca Yourstone and I study Frontend Development at ",
   school: "EC in Helsingborg, Sweden.",
-  searching: "I'm looking for an internship",
+  searching: "I'm looking for Work as a Frontend Developer!",
   preferrdWork:
     "I prefer to build using TypeScript and React, I am however open to use other frameworks or libraries such as Angular or vanilla JavaScript.",
   builtWith:

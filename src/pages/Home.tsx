@@ -26,15 +26,9 @@ export function Home() {
           </span>
           <span className="ms-2 text-black mt-2">
             {currentLang.lang === "en" ? (
-              <>
-                {translate("searching", currentLang.lang)}
-                <b> 231120 - 240212!</b>
-              </>
+              <>{translate("searching", currentLang.lang)}</>
             ) : (
-              <>
-                <b>231120 - 240212 </b>
-                {translate("searching", currentLang.lang)}
-              </>
+              <>{translate("searching", currentLang.lang)}</>
             )}
           </span>
           <p>{translate("preferrdWork", currentLang.lang)}</p>
