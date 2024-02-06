@@ -27,21 +27,11 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/about" element={<About />} />
+              <Route path="/projects" element={<ProjectCarousel />} />
             </Routes>
           </Container>
-          <Container
-            className="d-none d-md-block pb-5"
-            style={{ maxWidth: 400 }}
-          >
-            <img
-              src="/assets/IMG_4648.jpg"
-              alt="profile picture"
-              className="rounded"
-              style={{ objectFit: "scale-down", width: "100%" }}
-            ></img>
-          </Container>
         </Container>
-        <ProjectCarousel />
+        {/* <ProjectCarousel /> */}
         <footer
           className="footer bg-primary py-3 position-fixed bottom-0 w-100 text-white"
           style={{ zIndex: 2 }}

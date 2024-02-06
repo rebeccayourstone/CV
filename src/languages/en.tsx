@@ -3,6 +3,7 @@ export default {
   home: "Home",
   experience: "Experience",
   aboutMe: "About Me",
+  projects: "Projects",
   readCode: " Look at my source code!",
 
   //HOME

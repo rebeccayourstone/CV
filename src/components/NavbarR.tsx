@@ -52,6 +52,9 @@ function NavbarR() {
             <Nav.Link to="/about" as={NavLink} className="text-white">
               {translate("aboutMe", currentLang.lang)}
             </Nav.Link>
+            <Nav.Link to="/projects" as={NavLink} className="text-white">
+              {translate("projects", currentLang.lang)}
+            </Nav.Link>
           </Nav>
 
           <Navbar.Collapse className="justify-content-end">
@@ -61,25 +64,25 @@ function NavbarR() {
                 target="_blank"
               >
                 <i className="bi bi-github text-white"></i>
-                <span className="d-none d-xl-inline text-white">
+                {/* <span className="d-none d-xl-inline text-white">
                   {translate("readCode", currentLang.lang)}
-                </span>
+                </span> */}
               </a>
             </Navbar.Text>
             <Navbar.Text className="m-2 text-white">
               <a href="mailto:annarebeccasvensson@gmail.com">
                 <i className="bi bi-envelope text-white"></i>
-                <span className="d-none d-xl-inline text-white">
+                {/* <span className="d-none d-xl-inline text-white">
                   AnnaRebeccaSvensson@gmail.com
-                </span>
+                </span> */}
               </a>
             </Navbar.Text>
             <Navbar.Text className="m-2 text-white">
               <a href="tel:0706129985">
                 <i className="bi bi-phone text-white"></i>
-                <span className="d-none d-xl-inline text-white">
+                {/* <span className="d-none d-xl-inline text-white">
                   0706-12 99 85
-                </span>
+                </span> */}
               </a>
             </Navbar.Text>
           </Navbar.Collapse>

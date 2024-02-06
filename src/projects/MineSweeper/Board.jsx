@@ -141,35 +141,37 @@ class Board extends React.Component {
   //render function that returns the jsx displayed
   render() {
     return (
-      <div className="mine-fake-body">
-        <div className="gameContainer">
-          <div className="gameInfo">
-            <div className="minesLeft">
-              Mines:
-              <br />
-              {this.state.numberOfMinesMarked}
+      <div>
+        <div className="mine-fake-body">
+          <div className="gameContainer">
+            <div className="gameInfo">
+              <div className="minesLeft">
+                Mines:
+                <br />
+                {this.state.numberOfMinesMarked}
+              </div>
+              <div className="gameMessage">{this.gameMessage()}</div>
+              <div className="time">
+                Time: <br />
+                {this.state.time}
+              </div>
             </div>
-            <div className="gameMessage">{this.gameMessage()}</div>
-            <div className="time">
-              Time: <br />
-              {this.state.time}
+            <div className="boardContainer">
+              {this.newBoard.map((item, index) => (
+                //displayes the cell-function and sends down nessecary props.
+                <Cell
+                  key={index}
+                  handleGameOver={this.handleGameOver}
+                  cellData={item}
+                  onCellClick={this.handleClick}
+                  gameOn={this.state.gameOn}
+                  addFlag={this.addFlag}
+                  removeFlag={this.removeFlag}
+                />
+              ))}
             </div>
+            {/* <small>By Rebecca Yourstone FEU22</small> */}
           </div>
-          <div className="boardContainer">
-            {this.newBoard.map((item, index) => (
-              //displayes the cell-function and sends down nessecary props.
-              <Cell
-                key={index}
-                handleGameOver={this.handleGameOver}
-                cellData={item}
-                onCellClick={this.handleClick}
-                gameOn={this.state.gameOn}
-                addFlag={this.addFlag}
-                removeFlag={this.removeFlag}
-              />
-            ))}
-          </div>
-          {/* <small>By Rebecca Yourstone FEU22</small> */}
         </div>
       </div>
     );

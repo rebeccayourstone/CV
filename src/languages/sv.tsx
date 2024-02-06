@@ -3,6 +3,7 @@ export default {
   home: "Hem",
   experience: "Erfarenhet",
   aboutMe: "Om mig",
+  projects: "Projekt",
   readCode: " Se min källkod!",
 
   // HOME

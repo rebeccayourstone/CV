@@ -125,7 +125,7 @@ function Calculator() {
 
   return (
     <>
-      <div className="">
+      <div className="calc-container-outer">
         <div className="calc-container">
           <div className="calc-calculator">
             <section className="calc-history-display">{historyDisplay}</section>

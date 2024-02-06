@@ -55,12 +55,11 @@
 }
 
 .gameContainer {
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 38px;
-  padding-bottom: 160px;
 }
 
 /* .gameContainer::after {
