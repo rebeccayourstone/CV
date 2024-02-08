@@ -1,0 +1,10 @@
+.educationContainer {
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 3px 5.9px 5.9px hsla(0, 0%, 60%, 0.41);
+}

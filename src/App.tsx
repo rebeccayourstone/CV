@@ -8,6 +8,7 @@ import { LanguageContext } from "./context/LanguageContext";
 import { useState } from "react";
 
 import ProjectCarousel from "./components/ProjectCarousel";
+import SVGBackground from "./components/svgBackground";
 
 function App() {
   const [lang, setLang] = useState<string>("en");
@@ -20,6 +21,7 @@ function App() {
           setLang: setLang,
         }}
       >
+        <SVGBackground />
         <Navbar />
         <Container className="d-flex flex-row">
           <Container className="mb-4">
@@ -31,6 +33,7 @@ function App() {
             </Routes>
           </Container>
         </Container>
+
         {/* <ProjectCarousel /> */}
         <footer
           className="footer bg-primary py-3 position-fixed bottom-0 w-100 text-white"

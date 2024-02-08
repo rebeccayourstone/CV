@@ -9,7 +9,7 @@ export default {
   // HOME
   hello: "Hej",
   myName:
-    "Mitt namn är Rebecca Yourstone fd Svensson och jag läser till Frontendutvecklare på ",
+    "Mitt namn är Rebecca Yourstone och jag läser till Frontendutvecklare på ",
   school: "EC i Helsingborg.",
   searching: "Jag söker arbete inom Frontendutveckling!",
   preferdWork:
@@ -42,8 +42,18 @@ export default {
   //EXPERIENCE
   education: "Utbildning",
 
+  LIA2: "2024: LIA 2, Migaro-Asekio, EC-utbildning (65 yrkeshögskolepoäng)",
+
+  EXARB20:
+    "2024: Examensarbete, React Native, EC-utbildning (20 yrkeshögskolepoäng)",
+
+  LIA1: "2023-2024: LIA 1, Migaro-Asekio, EC-utbildning EC-utbildning (60 yrkeshögskolepoäng)",
+
+  backend2:
+    "2023: Backend 2, C# och Entity Framework Core, EC-utbildning (35 yrkeshögskolepoäng)",
+
   backend1:
-    "2023: Backend 1, C# och Entity Framework Core, EC-utbildning (30 yrkeshögskolepoäng) pågående",
+    "2023: Backend 1, C# och Entity Framework Core, EC-utbildning (30 yrkeshögskolepoäng)",
 
   agileProjectMethosd:
     "2023: Agila Projekt Metoder, EC-utbildning (20 yrkeshögskolepoäng)",

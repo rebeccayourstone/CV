@@ -42,8 +42,18 @@ export default {
   //EXPERIENCE
   education: "Education",
 
+  LIA2: "2024: LIA 2, Migaro-Asekio, EC-utbildning (65 yrkeshögskole credits)",
+
+  EXARB20:
+    "2024: Examensarbete, React Native, EC-utbildning (20 yrkeshögskole credits)",
+
+  LIA1: "2023-2024: LIA 1, Migaro-Asekio, EC-utbildning EC-utbildning (60 yrkeshögskole credits) ongoing",
+
+  backend2:
+    "2023: Backend 2, C# and Entity Framework Core, EC-utbildning (35 yrkeshögskole credits)",
+
   backend1:
-    "2023: Backend 1, C# and Entity Framework Core, EC-utbildning (30 yrkeshögskole credits) ongoing",
+    "2023: Backend 1, C# and Entity Framework Core, EC-utbildning (30 yrkeshögskole credits)",
 
   agileProjectMethosd:
     "2023: Agile Project Methods, EC-utbildning (20 yrkeshögskole credits)",
