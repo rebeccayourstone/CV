@@ -89,7 +89,7 @@ export function About() {
                   and for my own enjoyment.
                 </p>
                 <span>
-                  See some of my projects <Link to="/projects">Here?</Link>
+                  See some of my projects on the project page!
                   {/* href="/projects">Here?</Link> */}
                 </span>
                 <svg
