@@ -4,6 +4,7 @@ import { LanguageContext } from "../context/LanguageContext";
 import { useContext } from "react";
 import "./Home.css";
 import Skills from "../components/Skills";
+import { About } from "./About";
 
 export function Home() {
   const currentLang = useContext(LanguageContext);
@@ -59,6 +60,7 @@ export function Home() {
           </Col>
         </Container>
       </div>
+      <About />
       {/* <Skills /> */}
     </>
   );

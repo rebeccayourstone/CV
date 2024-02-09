@@ -69,11 +69,11 @@ function ProjectCarousel() {
           </div>
         </div>
 
-        <div className="rounded projectCard">
+        <div className="projectCard">
           <Container className="pt-3 projectBoardContainer">
             <ClockApp />
           </Container>
-          <div className="text-primary text-center pb-5 projectInfoContainer">
+          <div className="text-primary text-center pb-5 col-sm-5 projectInfoContainer">
             <h3 className="text-primary pt-3">
               Digital Clock - School Project
             </h3>

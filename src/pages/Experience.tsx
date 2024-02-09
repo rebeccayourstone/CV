@@ -8,7 +8,7 @@ export function Experience() {
   const currentLang = useContext(LanguageContext);
   return (
     <>
-      <Container>
+      <Container className="d-flex flex-wrap educationContainerInfo">
         <div className="educationContainer">
           <Col>
             <Row className="fs-2 text-primary">
@@ -104,7 +104,9 @@ export function Experience() {
             </Row>
           </Col>
         </div>
+      </Container>
 
+      <Container className="educationContainerText">
         <p className="mt-2">
           {translate("enskildFirmaWork", currentLang.lang)}
         </p>

@@ -5,6 +5,27 @@
   display: flex;
   flex-wrap: wrap;
   border-radius: 1rem;
-  margin: 1rem;
   box-shadow: 3px 5.9px 5.9px hsla(0, 0%, 60%, 0.41);
+  flex: 1;
+  margin: 0.2rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .educationContainer {
+    margin: 10rem 1rem 1rem 1rem;
+  }
+}
+
+.educationContainerText {
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  box-shadow: 3px 5.9px 5.9px hsla(0, 0%, 60%, 0.41);
+  margin: 5rem;
+  flex: 1;
+}
+
+.educationContainerInfo {
+  /* height: 100%; */
 }
