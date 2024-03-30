@@ -21,9 +21,7 @@ export function About() {
                   TypeSript & React
                 </span>
                 <p className="text-center">
-                  Whenever I get the operetunity to choose a tech stack I tend
-                  to go for TypeScript and React. I am however happy to try out
-                  and learn new things!
+                  {translate("interest1", currentLang.lang)}
                 </p>
                 <svg
                   width="800px"
@@ -43,8 +41,7 @@ export function About() {
               <Col className="p-4 hobby">
                 <span>HTML & CSS</span>
                 <p className="text-center">
-                  Thesee are still the very basics of web development and I
-                  enjoy exploring new ways to use HTML and CSS!
+                  {translate("interest2", currentLang.lang)}
                 </p>
                 <svg
                   width="800px"
@@ -62,9 +59,7 @@ export function About() {
               <Col className="p-4 hobby">
                 <span>React Native</span>
                 <p className="text-center">
-                  I am writing my exam project about React Native and I am very
-                  interested and motivated to learn more about developing apps
-                  for Android and iOS.
+                  {translate("interest3", currentLang.lang)}
                 </p>
                 <svg
                   width="800px"
@@ -82,11 +77,9 @@ export function About() {
             <Row className="fs-4 mt-3 text-primary">Hobbies</Row>
             <Row className="d-flex flex-column flex-md-row">
               <Col className="p-4 hobby">
-                <span>Programming</span>
+                <span>{translate("hobby1header", currentLang.lang)}</span>
                 <p className="text-center">
-                  I enjoy programming and I am always looking for new things to
-                  learn and explore. I have built a few projects both for school
-                  and for my own enjoyment.
+                  {translate("hobby1", currentLang.lang)}
                 </p>
                 <span>
                   See some of my projects on the project page!

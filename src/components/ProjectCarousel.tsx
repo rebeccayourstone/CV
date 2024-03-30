@@ -8,82 +8,34 @@ function ProjectCarousel() {
   return (
     <>
       <Container>
+        {/* AQUA CLEAR */}
         <div className="projectCard">
-          <div className="projectBoardContainer">
-            <Calculator />
+          <div className="projectImgContainer">
+            <img
+              className="d-block w-100"
+              src=" /assets/aquaclear2.png"
+              alt="Second slide"
+            />
           </div>
-          <div className="col-sm-5 text-primary text-center pb-5 projectInfoContainer">
-            <h3 className="text-primary pt-3">
-              Calculator - Own Hobby Project
+          <div className="text-center pb-5">
+            <h3 className="text-primary">
+              Aqua Clear - Project on Enskild Firma
             </h3>
-            <p className="text-center p-3">
-              This was my first JavaScript project and was built all in vanilla
-              JavaScript, now moved to React. The design is inspired/copied from
-              the iOS calculator.
-            </p>
-            <p>Try it out!</p>
-            <small className="text-primary">2023</small>
-          </div>
-        </div>
-
-        <div className="projectCard">
-          <div className="text-primary text-center pb-5 col-sm-5 projectInfoContainer">
-            <h3 className="pt-3">MineSweeper - School Project</h3>
-            <p className="text-center p-3">
-              This Mine Sweeper game was part of a scool project and was built
-              with a partly done code base. I have addeed style and functions to
-              make it a more playable game.
-            </p>
-            <p>Try it out on desktop!</p>
-            <small className="text-primary">2023</small>
-          </div>
-          <div className="projectBoardContainer">
-            <Board />
-          </div>
-        </div>
-
-        <div className="projectCard">
-          <div className=" projectBoardContainer">
-            <div className="projectImgContainer">
-              <img
-                className="d-block w-100 "
-                src=" /assets/Superjuicecalc.png"
-                alt="Second slide"
-              />
-            </div>
-          </div>
-          <div className="text-primary text-center pb-5 col-sm-5 projectInfoContainer">
-            <h3 className="pt-3">SuperJuice Calculator - Hobby Project</h3>
-            <p className="text-center p-3">
-              This is a superejuice calculator! It is a calculator that helps
-              you make citrus juice for making drinks. It is built in React in
-              colaboration with another developer.
-            </p>
             <p className="text-primary">
-              See the full implementation on <br />
-              <a href="https://citrus-ratios.pages.dev/" target="_blank">
-                <u>citrus-ratios.pages.dev</u>
+              A website for Aqua Clear, a company selling water filters.
+            </p>
+            <p className="text-primary">Implementation of existing design.</p>
+            <p className="text-primary">
+              See the full implementation on{" "}
+              <a href="https://www.aquaclear.se/" target="_blank">
+                <u>aquaclear.se</u>
               </a>
             </p>
-            <small className="text-primary">2024</small>
-          </div>
-        </div>
-
-        <div className="projectCard">
-          <Container className="pt-3 projectBoardContainer">
-            <ClockApp />
-          </Container>
-          <div className="text-primary text-center pb-5 col-sm-5 projectInfoContainer">
-            <h3 className="text-primary pt-3">
-              Digital Clock - School Project
-            </h3>
-            <p className="text-primary text-start p-3">
-              A digital clock fetching data from an api. Built in React.
-            </p>
             <small className="text-primary">2023</small>
           </div>
         </div>
 
+        {/* SINCALC */}
         <div className="projectCard">
           <div className="projectImgContainer">
             <img
@@ -113,32 +65,7 @@ function ProjectCarousel() {
           </div>
         </div>
 
-        <div className="projectCard">
-          <div className="projectImgContainer">
-            <img
-              className="d-block w-100"
-              src=" /assets/aquaclear2.png"
-              alt="Second slide"
-            />
-          </div>
-          <div className="text-center pb-5">
-            <h3 className="text-primary">
-              Aqua Clear - Project on Enskild Firma
-            </h3>
-            <p className="text-primary">
-              A website for Aqua Clear, a company selling water filters.
-            </p>
-            <p className="text-primary">Implementation of existing design.</p>
-            <p className="text-primary">
-              See the full implementation on{" "}
-              <a href="https://www.aquaclear.se/" target="_blank">
-                <u>aquaclear.se</u>
-              </a>
-            </p>
-            <small className="text-primary">2023</small>
-          </div>
-        </div>
-
+        {/* ASEKIO */}
         <div className="projectCard">
           <div className="projectImgContainer">
             <img
@@ -148,12 +75,13 @@ function ProjectCarousel() {
             />
           </div>
           <div className="text-center pb-5">
-            <h3 className="text-primary">Asekio - Project on Enskild Firma</h3>
+            <h3 className="text-primary">Asekio - Internship</h3>
             <p className="text-primary">
               Working in a team of four developers on Asekio.
             </p>
             <p className="text-primary">
-              Designing, building and implementing new features on Asekio.com.
+              Designing, building and implementing new features on Asekio.com
+              and in the product.
             </p>
             <p className="text-primary">
               Se the full implementation on{" "}
@@ -162,6 +90,87 @@ function ProjectCarousel() {
               </a>
             </p>
             <small className="text-primary">2023 - Ongoing</small>
+          </div>
+        </div>
+
+        {/* IOS CALCULATOR */}
+        <div className="projectCard">
+          <div className="projectBoardContainer">
+            <Calculator />
+          </div>
+
+          <div className="col-sm-5 text-primary text-center pb-5 projectInfoContainer">
+            <h3 className="text-primary pt-3">
+              Calculator - Own Hobby Project
+            </h3>
+            <p className="text-center p-3">
+              This was my first JavaScript project and was built all in vanilla
+              JavaScript, now moved to React. The design is inspired/copied from
+              the iOS calculator.
+            </p>
+            <p>Try it out!</p>
+            <small className="text-primary">2023</small>
+          </div>
+        </div>
+
+        {/* MINE SWEEPER */}
+        <div className="projectCard">
+          <div className="text-primary text-center pb-5 col-sm-5 projectInfoContainer">
+            <h3 className="pt-3">MineSweeper - School Project</h3>
+            <p className="text-center p-3">
+              This Mine Sweeper game was part of a scool project and was built
+              with a partly done code base. I have addeed style and functions to
+              make it a more playable game.
+            </p>
+            <p>Try it out on desktop!</p>
+            <small className="text-primary">2023</small>
+          </div>
+          <div className="projectBoardContainer">
+            <Board />
+          </div>
+        </div>
+
+        {/* SUPERJUICE */}
+        <div className="projectCard">
+          <div className=" projectBoardContainer">
+            <div className="projectImgContainer">
+              <img
+                className="d-block w-100 "
+                src=" /assets/Superjuicecalc.png"
+                alt="Second slide"
+              />
+            </div>
+          </div>
+          <div className="text-primary text-center pb-5 col-sm-5 projectInfoContainer">
+            <h3 className="pt-3">SuperJuice Calculator - Hobby Project</h3>
+            <p className="text-center p-3">
+              This is a superejuice calculator! It is a calculator that helps
+              you make citrus juice for making drinks. It is built in React in
+              colaboration with another developer.
+            </p>
+            <p className="text-primary">
+              See the full implementation on <br />
+              <a href="https://citrus-ratios.pages.dev/" target="_blank">
+                <u>citrus-ratios.pages.dev</u>
+              </a>
+            </p>
+            <small className="text-primary">2024</small>
+          </div>
+        </div>
+
+        {/* DIGITAL CLOCK */}
+        <div className="projectCard">
+          <Container className="pt-3 projectBoardContainer">
+            <ClockApp />
+          </Container>
+          <div className="text-primary text-center pb-5 col-sm-5 projectInfoContainer">
+            <h3 className="text-primary pt-3">
+              Digital Clock - School Project
+            </h3>
+            <p className="text-primary text-start p-3">
+              A digital clock fetching data from an api. Built in React.
+            </p>
+            <small className="text-primary">2023</small>
           </div>
         </div>
       </Container>

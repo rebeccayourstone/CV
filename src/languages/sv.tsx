@@ -18,6 +18,16 @@ export default {
     "Denna sida är byggd och designad av mig i TypeScript och React med style i Bootstrap och CSS. I hörnet längst upp till vänster finns två knappar där du kan välja om du vill fortsätta läsa på svenska (mitt modersmål) eller om du vill läsa på engelska. Min källkod finns att hitta i mitt ",
   skillLevel:
     "Frontendutveckling är fortfarande väldigt nytt för mig och jag har precis börjat försöka mig på design, därav att sidan är väldigt avskalad",
+  interest1:
+    "När jag har möjligheten att själv välja en teknikstack tenderar jag att använda TypeScript och React. Men jag är provar gärna på och lära mig nya tekniker!",
+  interest2:
+    "Dessa är fortfarande grunderna i webbutveckling, och jag tycker om att utforska nya sätt att använda HTML och CSS!",
+  interest3:
+    "Jag skrev mitt examensarbete om React Native, och jag är väldigt intresserad och motiverad att lära mig mer om att utveckla appar för Android och iOS.",
+
+  hobby1header: "Programmering",
+  hobby1:
+    "Jag tycker om att programmera och letar alltid efter nya saker att lära mig och utforska. Jag har byggt några projekt både för skolan och för min egen skull.",
 
   //ABOUT
   funThatYouFound: "Så kul att du hittat hit och vill veta lite mer om mig!",

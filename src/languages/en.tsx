@@ -18,6 +18,18 @@ export default {
   skillLevel:
     "As I'm still in my early days of frontend development and just taking my first steps into design, the page may appear somewhat bare in its current state.",
 
+  interest1:
+    "Whenever I have the opportunity to choose a tech stack, I tend to opt for TypeScript and React. However, I am happy to try out and learn new things!",
+  interest2:
+    "These are still the very basics of web development, and I enjoy exploring new ways to use HTML and CSS!",
+  interest3:
+    "I wrote my exam project about React Native, and I am very interested and motivated to learn more about developing apps for Android and iOS.",
+
+  hobby1header: "Programming",
+  hobby1:
+    "I enjoy programming, and I am always looking for new things to learn and explore. I have built a few projects both for school and for my own enjoyment.",
+
+  hobby2header: "Music",
   //ABOUT
   funThatYouFound:
     "I'm so happy that you found my CV and wanted to know a little about me!",
