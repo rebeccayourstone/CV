@@ -14,17 +14,20 @@ function ProjectCarousel() {
             <img
               className="d-block w-100"
               src=" /assets/aquaclear2.png"
-              alt="Second slide"
+              alt="aquaclear"
             />
           </div>
-          <div className="text-center pb-5">
+          <div className="text-center pb-5 m-5">
             <h3 className="text-primary">
               Aqua Clear - Project on Enskild Firma
             </h3>
             <p className="text-primary">
               A website for Aqua Clear, a company selling water filters.
             </p>
-            <p className="text-primary">Implementation of existing design.</p>
+            <p className="text-primary">
+              This project is built i React and uses Bootstrap for style. The
+              design was made in Figma by a designer and implemented by me.
+            </p>
             <p className="text-primary">
               See the full implementation on{" "}
               <a href="https://www.aquaclear.se/" target="_blank">
@@ -41,16 +44,32 @@ function ProjectCarousel() {
             <img
               className="d-block w-100"
               src=" /assets/si2ncal2c.png"
-              alt="Second slide"
+              alt="Si2ncal2c"
             />
           </div>
-          <div className="text-center pb-5">
+          {/* <div className="projectImgContainer">
+            <img
+              className="d-block w-100"
+              src=" /assets/dias3.png"
+              alt="Dias3"
+            />
+          </div> */}
+
+          <div className="text-center pb-5 m-5">
             <h3 className="text-primary">
-              SI<sub>2</sub>NCAl<sub>2</sub>C - Project on Enskild Firma
+              SI<sub>2</sub>NCAl<sub>2</sub>C & DIAS<sup>3</sup>- Project on
+              Enskild Firma
             </h3>
             <p className="text-primary">
-              A Calculater used by medical professionals to predict poor outcome
-              after Cerebral Venous Thrombosis.
+              Two calculators used by medical professionals to help calculate
+              risks associated with specific symptoms.
+            </p>
+            <p className="text-primary">
+              The code for the first calculator, SI<sub>2</sub>NCAl<sub>2</sub>
+              C, was half done in plain JavaScript by another developer when i
+              took over the project. I moved it to React and added styles based
+              on the existing design on the website. DIAS<sup>3</sup> was built
+              by me from scratch.
             </p>
             <p className="text-primary">
               See the full implementation on{" "}
@@ -58,7 +77,18 @@ function ProjectCarousel() {
                 href="https://cerebralvenousthrombosis.com/professionals/calculator-si2ncal2c/"
                 target="_blank"
               >
-                <u>cerebralvenousthrombosis.com</u>
+                <u>
+                  SI<sub>2</sub>NCAl<sub>2</sub>C
+                </u>
+              </a>
+              <span> and </span>
+              <a
+                href="https://cerebralvenousthrombosis.com/professionals/dias-3/"
+                target="_blank"
+              >
+                <u>
+                  DIAS<sup>3</sup>
+                </u>
               </a>
             </p>
             <small className="text-primary">2023</small>
@@ -71,17 +101,17 @@ function ProjectCarousel() {
             <img
               className="d-block w-100"
               src=" /assets/asekio2.png"
-              alt="Second slide"
+              alt="asekio"
             />
           </div>
-          <div className="text-center pb-5">
+          <div className="text-center pb-5 m-5">
             <h3 className="text-primary">Asekio - Internship</h3>
             <p className="text-primary">
               Working in a team of four developers on Asekio.
             </p>
             <p className="text-primary">
               Designing, building and implementing new features on Asekio.com
-              and in the product.
+              and in the product. Working with Next, React, TypeScript and Scss.
             </p>
             <p className="text-primary">
               Se the full implementation on{" "}
@@ -93,6 +123,34 @@ function ProjectCarousel() {
           </div>
         </div>
 
+        {/* DR JOHANNA OrdersSystem */}
+        <div className="projectCard">
+          <div className="projectImgContainer">
+            <img
+              className="d-block w-100"
+              src=" /assets/drjohanna.png"
+              alt="drjohanna"
+            />
+          </div>
+
+          <div className="text-center pb-5 m-5">
+            <h3 className="text-primary">Bar - Hobby Project</h3>
+            <p className="text-primary">
+              This project is built in React and is a bar system built for
+              organizing at my sister in laws doctorate. This is built in
+              collaboration with a back end developer. I have made and
+              implemented the design and UI.
+            </p>
+            <p className="text-primary">
+              See the full implementation on <br />
+              <a href="https://drjohanna.vercel.app/client" target="_blank">
+                <u>drjohanna.vercel.app</u>
+              </a>
+            </p>
+            <small className="text-primary">2023</small>
+          </div>
+        </div>
+
         {/* IOS CALCULATOR */}
         <div className="projectCard">
           <div className="projectBoardContainer">
@@ -100,9 +158,7 @@ function ProjectCarousel() {
           </div>
 
           <div className="col-sm-5 text-primary text-center pb-5 projectInfoContainer">
-            <h3 className="text-primary pt-3">
-              Calculator - Own Hobby Project
-            </h3>
+            <h3 className="text-primary pt-3">Calculator - Hobby Project</h3>
             <p className="text-center p-3">
               This was my first JavaScript project and was built all in vanilla
               JavaScript, now moved to React. The design is inspired/copied from
@@ -137,7 +193,7 @@ function ProjectCarousel() {
               <img
                 className="d-block w-100 "
                 src=" /assets/Superjuicecalc.png"
-                alt="Second slide"
+                alt="superjuice"
               />
             </div>
           </div>
@@ -159,149 +215,19 @@ function ProjectCarousel() {
         </div>
 
         {/* DIGITAL CLOCK */}
+
         <div className="projectCard">
-          <Container className="pt-3 projectBoardContainer">
-            <ClockApp />
-          </Container>
           <div className="text-primary text-center pb-5 col-sm-5 projectInfoContainer">
-            <h3 className="text-primary pt-3">
-              Digital Clock - School Project
-            </h3>
-            <p className="text-primary text-start p-3">
+            <h3 className="pt-3"> Digital Clock - School Project</h3>
+            <p className="text-center p-3">
               A digital clock fetching data from an api. Built in React.
             </p>
             <small className="text-primary">2023</small>
           </div>
-        </div>
-      </Container>
-
-      <Container>
-        {/* <Carousel> */}
-        {/* CLOCK */}
-        {/* <Carousel.Item
-            className="carousel-style"
-            style={{
-              background: "linear-gradient(to bottom, #333, #fff)",
-            }}
-          >
+          <div className="projectBoardContainer">
             <ClockApp />
-            <div
-              className="text-center pb-5"
-              style={{ backgroundColor: "#c6c5c5" }}
-            >
-              <h3 className="text-primary">Digital Clock - School Project</h3>
-              <p className="text-primary">
-                A digital clock fetching data from an api. Built in react.
-              </p>
-            </div>
-          </Carousel.Item> */}
-
-        {/* SINCALC */}
-        {/* <Carousel.Item
-            style={{
-              background: "#fff",
-            }}
-          >
-            <img
-              className="d-block w-100"
-              src=" /assets/si2ncal2c.png"
-              alt="Second slide"
-            />
-            <div className="text-center pb-5">
-              <h3 className="text-primary">
-                SI<sub>2</sub>NCAl<sub>2</sub>C - Project on Enskild Firma
-              </h3>
-              <p className="text-primary">
-                A Calculater used by medical professionals to predict poor
-                outcome after Cerebral Venous Thrombosis.
-              </p>
-              <p className="text-primary">
-                See the full implementation on{" "}
-                <a
-                  href="https://cerebralvenousthrombosis.com/professionals/calculator-si2ncal2c/"
-                  target="_blank"
-                >
-                  <u>cerebralvenousthrombosis.com</u>
-                </a>
-              </p>
-            </div>
-          </Carousel.Item> */}
-
-        {/* MINE SWEEPER */}
-        {/* <Carousel.Item
-            style={{
-              backgroundColor: "#21232a",
-            }}
-          >
-            <Board />
-            <div className="text-primary text-center pb-5">
-              <h3>MineSweeper - School Project</h3>
-              <p>Mine Sweeper game built with partly done code base.</p>
-              <p>Try it out on desktop!</p>
-            </div>
-          </Carousel.Item> */}
-
-        {/* CALCULATOR */}
-        {/* <Carousel.Item
-            style={{ height: "800px", backgroundColor: "#131313" }}
-          >
-            <Calculator />
-            <div className="text-primary text-center pb-5">
-              <h3>Calculator - Own Hobby Project</h3>
-              <p>A calculator inspired by iOS. Try it out!</p>
-            </div>
-          </Carousel.Item> */}
-
-        {/* AQUA CLEAR */}
-        {/* <Carousel.Item style={{ backgroundColor: "#fff" }}>
-            <img
-              className="d-block w-100"
-              src=" /assets/aquaclear2.png"
-              alt="Second slide"
-            />
-            <div className="text-center pb-5">
-              <h3 className="text-primary">
-                Aqua Clear - Project on Enskild Firma
-              </h3>
-              <p className="text-primary">
-                A website for Aqua Clear, a company selling water filters.
-              </p>
-              <p className="text-primary">Implementation of existing design.</p>
-              <p className="text-primary">
-                See the full implementation on{" "}
-                <a href="https://www.aquaclear.se/" target="_blank">
-                  <u>aquaclear.se</u>
-                </a>
-              </p>
-            </div>
-          </Carousel.Item> */}
-
-        {/* ASEKIO */}
-        {/* <Carousel.Item style={{ backgroundColor: "#fff" }}>
-            <img
-              className="d-block w-100"
-              src=" /assets/asekio2.png"
-              alt="Second slide"
-            />
-            <div className="text-center pb-5">
-              <h3 className="text-primary">
-                Asekio - Project on Enskild Firma
-              </h3>
-              <p className="text-primary">
-                Working in a team of four developers on Asekio.
-              </p>
-              <p className="text-primary">
-                Designing, building and implementing new features on Asekio.com.
-              </p>
-              <p className="text-primary">
-                Se the full implementation on{" "}
-                <a href="https://www.asekio.com/" target="_blank">
-                  <u>asekio.com</u>
-                </a>
-              </p>
-            </div>
-          </Carousel.Item> */}
-        {/* </Carousel> */}
+          </div>
+        </div>
       </Container>
     </>
   );
