@@ -3,7 +3,6 @@ import translate from "../languages/lang";
 import { LanguageContext } from "../context/LanguageContext";
 import { useContext } from "react";
 import "./Home.css";
-import Skills from "../components/Skills";
 import { About } from "./About";
 
 export function Home() {
@@ -61,7 +60,6 @@ export function Home() {
         </Container>
       </div>
       <About />
-      {/* <Skills /> */}
     </>
   );
 }

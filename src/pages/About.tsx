@@ -3,7 +3,6 @@ import { LanguageContext } from "../context/LanguageContext";
 import { useContext } from "react";
 import translate from "../languages/lang";
 import "./About.css";
-import { Link } from "react-router-dom";
 
 export function About() {
   const currentLang = useContext(LanguageContext);
@@ -81,10 +80,9 @@ export function About() {
                 <p className="text-center">
                   {translate("hobby1", currentLang.lang)}
                 </p>
-                <span>
-                  See some of my projects on the project page!
-                  {/* href="/projects">Here?</Link> */}
-                </span>
+                <a href="https://rebeccayourstone.se/projects" target="_blank">
+                  See my projects here!
+                </a>
                 <svg
                   version="1.1"
                   id="Capa_1"

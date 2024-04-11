@@ -7,8 +7,8 @@ import Navbar from "./components/NavbarR";
 import { LanguageContext } from "./context/LanguageContext";
 import { useState } from "react";
 
-import ProjectCarousel from "./components/ProjectCarousel";
 import SVGBackground from "./components/svgBackground";
+import Projects from "./components/Projects";
 
 function App() {
   const [lang, setLang] = useState<string>("en");
@@ -29,18 +29,17 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/about" element={<About />} />
-              <Route path="/projects" element={<ProjectCarousel />} />
+              <Route path="/projects" element={<Projects />} />
             </Routes>
           </Container>
         </Container>
 
-        {/* <ProjectCarousel /> */}
         <footer
           className="footer bg-primary py-3 position-fixed bottom-0 w-100 text-white"
           style={{ zIndex: 2 }}
         >
           <Container className="text-center">
-            By Rebecca Yourstone 2023
+            By Rebecca Yourstone 2024
           </Container>
         </footer>
       </LanguageContext.Provider>

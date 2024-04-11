@@ -2,9 +2,9 @@ import { Container, Carousel, Card } from "react-bootstrap";
 import ClockApp from "../projects/DigitalClock/ClockApp";
 import Calculator from "../projects/Calculator/Calculator";
 import Board from "../projects/MineSweeper/Board";
-import "./ProjectCarousel.css";
+import "./Projects.css";
 
-function ProjectCarousel() {
+function Projects() {
   return (
     <>
       <Container>
@@ -233,4 +233,4 @@ function ProjectCarousel() {
   );
 }
 
-export default ProjectCarousel;
+export default Projects;
