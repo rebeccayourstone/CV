@@ -13,7 +13,7 @@ export function Home() {
       <div className="homeContainer d-flex flex-row">
         <Container className="d-none d-md-block pb-5" style={{ maxWidth: 400 }}>
           <img
-            src="/assets/IMG_4648.jpg"
+            src="/assets/PLNzsE4.jpeg"
             alt="profile picture"
             className="rounded-circle"
             style={{ objectFit: "scale-down", width: "100%" }}
